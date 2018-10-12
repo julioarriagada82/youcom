@@ -1,0 +1,120 @@
+body {
+  padding-top: 75px; }
+
+/*
+ * Global add-ons
+ */
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee; }
+
+.form-horizontal .col-sm-12.control-label {
+  text-align: left; }
+
+.img-thumbnail {
+  max-width: 150px; }
+
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none; }
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px;
+  /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px; }
+  .nav-sidebar li a {
+    padding: 5px 20px; }
+  .nav-sidebar .active a {
+    color: #fff;
+    background-color: #428bca; }
+  .nav-sidebar .page-header {
+    margin: 10px 0;
+    padding: 0 20px; }
+
+/*
+ * Header Info
+ */
+.log-info {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 0; }
+  .log-info ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .log-info ul li {
+      font-size: 11px;
+      float: left;
+      list-style: none;
+      margin: 0 0 0 20px;
+      padding: 0; }
+
+/*
+ * Main content
+ */
+.main {
+  padding: 20px; }
+  .main .page-header {
+    margin-top: 0; }
+  .main .directivo {
+    margin-bottom: 20px;
+    text-align: center; }
+    .main .directivo h3 {
+      margin: 5px 0; }
+    .main .directivo h4 {
+      margin: 0; }
+    .main .directivo p {
+      margin: 0; }
+  .main .procedimiento, .main .acta, .main .estado-financiero, .main .blacklist {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px; }
+    .main .procedimiento .titulo, .main .acta .titulo, .main .estado-financiero .titulo, .main .blacklist .titulo {
+      margin: 0; }
+    .main .procedimiento .archivo, .main .acta .archivo, .main .estado-financiero .archivo, .main .blacklist .archivo {
+      display: block; }
+  .main .blacklist .idnumber {
+    font-weight: bold;
+    margin: 0; }
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center; }
+  .placeholders h4 {
+    margin-bottom: 0; }
+
+.placeholder {
+  margin-bottom: 20px; }
+  .placeholder img {
+    display: inline-block;
+    border-radius: 50%; }
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 75px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee; }
+
+  .main {
+    padding-right: 40px;
+    padding-left: 40px; }
+    .main .directivo {
+      text-align: left; } }

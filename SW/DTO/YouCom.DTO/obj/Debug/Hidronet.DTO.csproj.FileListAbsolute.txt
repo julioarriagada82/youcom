@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.DTO\bin\Debug\Hidronet.DTO.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.DTO\bin\Debug\Hidronet.DTO.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.DTO\obj\Debug\Hidronet.DTO.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.DTO\obj\Debug\Hidronet.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.DTO\bin\Debug\Hidronet.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.DTO\bin\Debug\Hidronet.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.DTO\obj\Debug\Hidronet.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.DTO\obj\Debug\Hidronet.DTO.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.DTO\bin\Debug\Hidronet.DTO.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.DTO\bin\Debug\Hidronet.DTO.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.DTO\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.DTO\obj\Debug\Hidronet.DTO.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.DTO\obj\Debug\Hidronet.DTO.pdb

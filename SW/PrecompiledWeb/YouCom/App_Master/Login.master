@@ -1,0 +1,243 @@
+<%@ master language="C#" autoeventwireup="true" inherits="App_Master_Login, App_Web_pd1o4iqd" %>
+
+<%@ Register TagName="Header" TagPrefix="Inclusion" Src="~/App_Master/Controls/Header.ascx" %>
+<%@ Register TagName="Title" TagPrefix="Inclusion" Src="~/App_Master/Controls/Title.ascx" %>
+<%@ Register TagName="Menu" TagPrefix="Inclusion" Src="~/App_Master/Controls/uscMenuHorizontal.ascx" %>
+<%@ Register TagName="Footer" TagPrefix="Inclusion" Src="~/App_Master/Controls/Footer.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es-ES">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Language" content="Spanish" />
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.bancointernacional.cl"' />
+    <meta name="description" content="Panel de Control" />
+    <meta name="distribution" content="GLOBAL" />
+    <meta name="keywords" content="control, proyecyos, horas, intranet " />
+    <meta name="resource-type" content="document" />
+    <meta name="revisit-after" content="20 Days" />
+    <meta name="ROBOTS" content="ALL" />
+    <title>
+        <Inclusion:Title ID="Title" runat="server" />
+    </title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/calendar.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../css/reset-fonts-common.min.css" />
+    
+    <script type="text/javascript" src='<% = ResolveUrl("~/js/validacion.js") %>'></script>
+
+    <style>
+        body
+        {
+            -webkit-font-smoothing: antialiased;
+            font: normal 15px/1.5 "Helvetica Neue" , Helvetica, Arial, sans-serif;
+            color: #d4d4d4;
+            padding-top: 0px;
+        }
+        #slides
+        {
+            display: none;
+        }
+        #slides .slidesjs-navigation
+        {
+            margin-top: 5px;
+        }
+        a.slidesjs-next, a.slidesjs-previous, a.slidesjs-play, a.slidesjs-stop
+        {
+            background-image: url(img/btns-next-prev.png);
+            background-repeat: no-repeat;
+            display: block;
+            width: 12px;
+            height: 18px;
+            overflow: hidden;
+            text-indent: -9999px;
+            float: left;
+            margin-right: 5px;
+        }
+        a.slidesjs-next
+        {
+            margin-right: 10px;
+            background-position: -12px 0;
+        }
+        a:hover.slidesjs-next
+        {
+            background-position: -12px -18px;
+        }
+        a.slidesjs-previous
+        {
+            background-position: 0 0;
+        }
+        a:hover.slidesjs-previous
+        {
+            background-position: 0 -18px;
+        }
+        a.slidesjs-play
+        {
+            width: 15px;
+            background-position: -25px 0;
+        }
+        a:hover.slidesjs-play
+        {
+            background-position: -25px -18px;
+        }
+        a.slidesjs-stop
+        {
+            width: 18px;
+            background-position: -41px 0;
+        }
+        a:hover.slidesjs-stop
+        {
+            background-position: -41px -18px;
+        }
+        .slidesjs-pagination
+        {
+            margin: 7px 0 0;
+            float: right;
+            list-style: none;
+        }
+        .slidesjs-pagination li
+        {
+            float: left;
+            margin: 0 1px;
+        }
+        .slidesjs-pagination li a
+        {
+            display: block;
+            width: 13px;
+            height: 0;
+            padding-top: 13px;
+            background-image: url(img/pagination.png);
+            background-position: 0 0;
+            float: left;
+            overflow: hidden;
+        }
+        .slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active
+        {
+            background-position: 0 -13px;
+        }
+        .slidesjs-pagination li a:hover
+        {
+            background-position: 0 -26px;
+        }
+        #slides a:link, #slides a:visited
+        {
+            color: #333;
+        }
+        #slides a:hover, #slides a:active
+        {
+            color: #9e2020;
+        }
+        .navbar
+        {
+            overflow: hidden;
+        }
+    </style>
+    <!-- End SlidesJS Optional-->
+    <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+    <style>
+        #slides
+        {
+            display: none;
+        }
+        .container
+        {
+            margin: 25px auto;
+        }
+        /* For tablets & smart phones */@media (max-width: 700px)
+        {
+            body
+            {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .container
+            {
+                width: auto;
+            }
+        }
+        /* For smartphones */@media (max-width: 280px)
+        {
+            .container
+            {
+                width: auto;
+            }
+        }
+        /* For smaller displays like laptops */@media (min-width: 700px) and (max-width: 700px)
+        {
+            .container
+            {
+                width: auto;
+            }
+        }
+        /* For larger displays */@media (min-width: 700px)
+        {
+            .container
+            {
+                width: 815px;
+            }
+        }
+    </style>
+    <!-- SlidesJS Required: -->
+</head>
+<body>
+    <!-- Dropdown menu -->
+
+    <script type="text/javascript" src='<% = ResolveUrl("~/js/dropdown.js") %>'></script>
+
+    <!-- Tabs -->
+
+    <script type="text/javascript" src='<% = ResolveUrl("~/js/domtab.js") %>'></script>
+
+    <form id="form1" runat="server">
+    <div id="wrap">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true"
+            EnableScriptLocalization="true" />
+        <!--Open MAIN-->
+        <div id="main">
+            <!--Header-->
+            <Inclusion:Header ID="Header1" runat="server" />
+            <!--/Header-->
+            <!--Menu Ppal-->
+            <Inclusion:Menu ID="Menu1" runat="server"></Inclusion:Menu>
+            <!--/Menu Ppal-->
+            <!--Open Conte-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--/End Conte-->
+        </div>
+        <!--Close MAIN-->
+    </div>
+    <!--Close WRAP-->
+    <!--Open FOOTER-->
+    <Inclusion:Footer ID="Footer1" runat="server" />
+    <!--End FOOTER-->
+    </form>
+    <!-- SlidesJS Required: Link to jQuery -->
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!-- End SlidesJS Required -->
+    <!-- SlidesJS Required: Link to jquery.slides.js -->
+
+    <script src="js/jquery.slides.min.js"></script>
+
+    <!-- End SlidesJS Required -->
+    <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+
+    <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 3055,
+        height: 1080,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+
+    <!-- End SlidesJS Required -->
+</body>
+</html>

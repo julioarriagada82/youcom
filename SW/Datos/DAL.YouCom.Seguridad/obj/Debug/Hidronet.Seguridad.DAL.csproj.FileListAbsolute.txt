@@ -1,0 +1,27 @@
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Seguridad.DAL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Seguridad.DAL.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.DTO.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\bin\Debug\Hidrontet.service.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.DTO.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\bin\Debug\Hidrontet.service.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\obj\Debug\Hidronet.Seguridad.DAL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.Seguridad.DAL\obj\Debug\Hidronet.Seguridad.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Seguridad.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Seguridad.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\obj\Debug\Hidronet.Seguridad.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.Seguridad.DAL\obj\Debug\Hidronet.Seguridad.DAL.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Seguridad.DAL.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Seguridad.DAL.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.DTO.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Service.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.DTO.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\bin\Debug\Hidronet.Service.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\obj\Debug\Hidronet.Seguridad.DAL.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.Seguridad.DAL\obj\Debug\Hidronet.Seguridad.DAL.pdb

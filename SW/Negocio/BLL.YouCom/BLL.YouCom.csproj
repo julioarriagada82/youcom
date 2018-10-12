@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0EA65068-798C-471E-8E8F-C475513351FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouCom.bll</RootNamespace>
+    <AssemblyName>YouCom.bll</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoHogar\AccesoHogarBLL.cs" />
+    <Compile Include="AccesoHogar\AccesoHogarDetalleBLL.cs" />
+    <Compile Include="ArchivoBLL.cs" />
+    <Compile Include="AreasComunesBLL.cs" />
+    <Compile Include="Avisos\AvisoEstadoBLL.cs" />
+    <Compile Include="Avisos\AvisoBLL.cs" />
+    <Compile Include="Avisos\ImagenAvisoBLL.cs" />
+    <Compile Include="BannerBLL.cs" />
+    <Compile Include="CargoBLL.cs" />
+    <Compile Include="CasaBLL.cs" />
+    <Compile Include="CategoriaBLL.cs" />
+    <Compile Include="CiudadBLL.cs" />
+    <Compile Include="Avisos\ComentarioAvisoBLL.cs" />
+    <Compile Include="ComercioBLL.cs" />
+    <Compile Include="ComunaBLL.cs" />
+    <Compile Include="ContactoFamiliaBLL.cs" />
+    <Compile Include="ContenidoBLL.cs" />
+    <Compile Include="DirectivaBLL.cs" />
+    <Compile Include="EmergenciaBLL.cs" />
+    <Compile Include="EmpresaContratistaBLL.cs" />
+    <Compile Include="EmpresaServicioBLL.cs" />
+    <Compile Include="EventoBLL.cs" />
+    <Compile Include="FamiliaBLL.cs" />
+    <Compile Include="ForoComunidadBLL.cs" />
+    <Compile Include="ForoComunidadEstadoBLL.cs" />
+    <Compile Include="AccesoHogar\FrecuenciaBLL.cs" />
+    <Compile Include="GastosComunes\GastoComunBLL.cs" />
+    <Compile Include="GastosComunes\GastoComunEstadoBLL.cs" />
+    <Compile Include="GiroBLL.cs" />
+    <Compile Include="HorarioTurnoBLL.cs" />
+    <Compile Include="ListaNegraBLL.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionNoticiaBLL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajeDirectivaBLL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajeNoticiaBLL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajePorteriaBLL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajePropietarioBLL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajeNoticiaBLL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajePropietarioBLL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajePorteriaBLL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajeDirectivaBLL.cs" />
+    <Compile Include="Mensajeria\MensajeBLL.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajeDirectivaBLL.cs" />
+    <Compile Include="Mensajeria\MensajeDirectivaBLL.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajePorteriaBLL.cs" />
+    <Compile Include="Mensajeria\MensajePorteriaBLL.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajePropietarioBLL.cs" />
+    <Compile Include="Mensajeria\MensajeNoticiaBLL.cs" />
+    <Compile Include="Mensajeria\MensajePropietarioBLL.cs" />
+    <Compile Include="Mensajeria\MensajeTipoBLL.cs" />
+    <Compile Include="NoticiaBLL.cs" />
+    <Compile Include="Notificaciones\NotificacionAccionBLL.cs" />
+    <Compile Include="Notificaciones\NotificacionBLL.cs" />
+    <Compile Include="Notificaciones\NotificacionDirectivaBLL.cs" />
+    <Compile Include="Notificaciones\NotificacionNoticiaBLL.cs" />
+    <Compile Include="Notificaciones\NotificacionPorteriaBLL.cs" />
+    <Compile Include="Notificaciones\NotificacionPropietarioBLL.cs" />
+    <Compile Include="Notificaciones\ResumenNotificacionBLL.cs" />
+    <Compile Include="OcupacionBLL.cs" />
+    <Compile Include="PaisBLL.cs" />
+    <Compile Include="ParametrosBLL.cs" />
+    <Compile Include="ParentescoBLL.cs" />
+    <Compile Include="PeriodoHorarioBLL.cs" />
+    <Compile Include="PorteriaBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropuestaBLL.cs" />
+    <Compile Include="PropuestaEstadoBLL.cs" />
+    <Compile Include="ProyectoBLL.cs" />
+    <Compile Include="ProyectoEstadoBLL.cs" />
+    <Compile Include="RankingServicioBLL.cs" />
+    <Compile Include="Mensajeria\SalasChatBLL.cs" />
+    <Compile Include="RegionBLL.cs" />
+    <Compile Include="ResponsableBLL.cs" />
+    <Compile Include="ServiciosBLL.cs" />
+    <Compile Include="Avisos\TipoAvisoBLL.cs" />
+    <Compile Include="TipoCategoriaBLL.cs" />
+    <Compile Include="TipoEmergenciaBLL.cs" />
+    <Compile Include="AccesoHogar\TipoVisitaBLL.cs" />
+    <Compile Include="TurnoDiarioBLL.cs" />
+    <Compile Include="VacacionesBLL.cs" />
+    <Compile Include="VotacionPropuestaBLL.cs" />
+    <Compile Include="VotacionPropuestaEstadoBLL.cs" />
+    <Compile Include="VotacionPropuestaRespuestaBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Datos\DAL.YouCom.Mensajeria\DAL.YouCom.Mensajeria.csproj">
+      <Project>{d80bd5a6-7c65-422b-933b-0d22e65970ec}</Project>
+      <Name>DAL.YouCom.Mensajeria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datos\DAL.YouCom.Seguridad\DAL.YouCom.Seguridad.csproj">
+      <Project>{e9b57fda-79b2-49e1-8569-478f876389d8}</Project>
+      <Name>DAL.YouCom.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datos\DAL.YouCom\DAL.YouCom.csproj">
+      <Project>{f95922f3-d81c-4634-bc63-bb5e667866f7}</Project>
+      <Name>DAL.YouCom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DTO\YouCom.DTO\DTO.YouCom.csproj">
+      <Project>{c39a8372-0ef7-4467-b202-26db617d745c}</Project>
+      <Name>DTO.YouCom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Facade\YouCom.facade\FA.YouCom.csproj">
+      <Project>{db984197-7908-49f3-aa65-5d006a430e73}</Project>
+      <Name>FA.YouCom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

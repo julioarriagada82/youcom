@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D80BD5A6-7C65-422B-933B-0D22E65970EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouCom.Mensajeria.DAL</RootNamespace>
+    <AssemblyName>YouCom.Mensajeria.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mensajeria\Eleccion\EleccionNoticiaDAL.cs" />
+    <Compile Include="LinqChat.designer.cs" />
+    <Compile Include="LinqChat1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LinqChat.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajeDirectivaDAL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajeDirectivaDAL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajeNoticiaDAL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajePorteriaDAL.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajePropietarioDAL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajePorteriaDAL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajePropietarioDAL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajeNoticiaDAL.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajeDirectivaDAL.cs" />
+    <Compile Include="Mensajeria\MensajeDirectivaDAL.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajePorteriaDAL.cs" />
+    <Compile Include="Mensajeria\MensajePorteriaDAL.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajePropietarioDAL.cs" />
+    <Compile Include="Mensajeria\MensajeNoticiaDAL.cs" />
+    <Compile Include="Mensajeria\MensajePropietarioDAL.cs" />
+    <Compile Include="Mensajeria\MensajeTipoDAL.cs" />
+    <Compile Include="Notificaciones\NotificacionAccionDAL.cs" />
+    <Compile Include="Notificaciones\NotificacionDirectivaDAL.cs" />
+    <Compile Include="Notificaciones\NotificacionNoticiaDAL.cs" />
+    <Compile Include="Notificaciones\NotificacionPorteriaDAL.cs" />
+    <Compile Include="Notificaciones\NotificacionPropietarioDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LinqChat.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LinqChat1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LinqChat.dbml.layout">
+      <DependentUpon>LinqChat.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DTO\YouCom.DTO\DTO.YouCom.csproj">
+      <Project>{c39a8372-0ef7-4467-b202-26db617d745c}</Project>
+      <Name>DTO.YouCom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Transversal\YouCom.service\YouCom.service.csproj">
+      <Project>{1c2c9ead-a7c7-4389-b204-2288ff5bc448}</Project>
+      <Name>YouCom.service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

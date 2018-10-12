@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB984197-7908-49F3-AA65-5D006A430E73}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouCom.facade</RootNamespace>
+    <AssemblyName>YouCom.Facade</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoHogar\AccesoHogar.cs" />
+    <Compile Include="AccesoHogar\AccesoHogarDetalle.cs" />
+    <Compile Include="Archivo.cs" />
+    <Compile Include="AreasComunes.cs" />
+    <Compile Include="Avisos\AvisoEstado.cs" />
+    <Compile Include="Avisos\Aviso.cs" />
+    <Compile Include="Avisos\ImagenAviso.cs" />
+    <Compile Include="Banner.cs" />
+    <Compile Include="Cargo.cs" />
+    <Compile Include="Casa.cs" />
+    <Compile Include="Categoria.cs" />
+    <Compile Include="Ciudad.cs" />
+    <Compile Include="Avisos\ComentarioAviso.cs" />
+    <Compile Include="Comercio.cs" />
+    <Compile Include="Comuna.cs" />
+    <Compile Include="Seguridad\Comunidad.cs" />
+    <Compile Include="ContactoFamilia.cs" />
+    <Compile Include="Contenido.cs" />
+    <Compile Include="Directiva.cs" />
+    <Compile Include="Emergencia.cs" />
+    <Compile Include="EmpresaContratista.cs" />
+    <Compile Include="EmpresaServicio.cs" />
+    <Compile Include="Evento.cs" />
+    <Compile Include="Familia.cs" />
+    <Compile Include="Foro\ForoComunidad.cs" />
+    <Compile Include="Foro\ForoComunidadEstado.cs" />
+    <Compile Include="AccesoHogar\Frecuencia.cs" />
+    <Compile Include="GastosComunes\GastoComunEstado.cs" />
+    <Compile Include="Giro.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionNoticia.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajeDirectiva.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajeNoticia.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajePorteria.cs" />
+    <Compile Include="Mensajeria\Video\VideoMensajePropietario.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajePropietario.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajePorteria.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajeNoticia.cs" />
+    <Compile Include="Mensajeria\Imagen\ImagenMensajeDirectiva.cs" />
+    <Compile Include="Mensajeria\Mensaje.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajeDirectiva.cs" />
+    <Compile Include="Mensajeria\MensajeDirectiva.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajePorteria.cs" />
+    <Compile Include="Mensajeria\Eleccion\EleccionMensajePropietario.cs" />
+    <Compile Include="Mensajeria\MensajeNoticia.cs" />
+    <Compile Include="Mensajeria\MensajePropietario.cs" />
+    <Compile Include="Mensajeria\MensajeTipo.cs" />
+    <Compile Include="Notificaciones\Notificacion.cs" />
+    <Compile Include="Notificaciones\NotificacionDirectiva.cs" />
+    <Compile Include="Notificaciones\NotificacionNoticia.cs" />
+    <Compile Include="Notificaciones\NotificacionPorteria.cs" />
+    <Compile Include="Notificaciones\NotificacionPropietario.cs" />
+    <Compile Include="Notificaciones\NotificacionAccion.cs" />
+    <Compile Include="Propuesta.cs" />
+    <Compile Include="PropuestaEstado.cs" />
+    <Compile Include="Responsable.cs" />
+    <Compile Include="Seguridad\Condominio.cs" />
+    <Compile Include="Seguridad\Funcion.cs" />
+    <Compile Include="Seguridad\FuncionGrupo.cs" />
+    <Compile Include="Seguridad\FuncionTipo.cs" />
+    <Compile Include="GastosComunes\GastoComun.cs" />
+    <Compile Include="HorarioTurno.cs" />
+    <Compile Include="ListaNegra.cs" />
+    <Compile Include="Mensajeria\MensajePorteria.cs" />
+    <Compile Include="Noticia.cs" />
+    <Compile Include="Ocupacion.cs" />
+    <Compile Include="Pais.cs" />
+    <Compile Include="Parametros.cs" />
+    <Compile Include="Parentesco.cs" />
+    <Compile Include="PeriodoHorario.cs" />
+    <Compile Include="Porteria.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyecto.cs" />
+    <Compile Include="ProyectoEstado.cs" />
+    <Compile Include="RankingServicio.cs" />
+    <Compile Include="Region.cs" />
+    <Compile Include="Seguridad\Perfil.cs" />
+    <Compile Include="Seguridad\Permiso.cs" />
+    <Compile Include="Seguridad\Usuario.cs" />
+    <Compile Include="Servicios.cs" />
+    <Compile Include="TipoAviso.cs" />
+    <Compile Include="TipoCategoria.cs" />
+    <Compile Include="TipoEmergencia.cs" />
+    <Compile Include="AccesoHogar\TipoVisita.cs" />
+    <Compile Include="TurnoDiario.cs" />
+    <Compile Include="Vacaciones.cs" />
+    <Compile Include="VotacionPropuesta.cs" />
+    <Compile Include="VotacionPropuestaEstado.cs" />
+    <Compile Include="VotacionPropuestaRespuesta.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Datos\DAL.YouCom.Mensajeria\DAL.YouCom.Mensajeria.csproj">
+      <Project>{d80bd5a6-7c65-422b-933b-0d22e65970ec}</Project>
+      <Name>DAL.YouCom.Mensajeria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datos\DAL.YouCom.Seguridad\DAL.YouCom.Seguridad.csproj">
+      <Project>{e9b57fda-79b2-49e1-8569-478f876389d8}</Project>
+      <Name>DAL.YouCom.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datos\DAL.YouCom\DAL.YouCom.csproj">
+      <Project>{f95922f3-d81c-4634-bc63-bb5e667866f7}</Project>
+      <Name>DAL.YouCom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DTO\YouCom.DTO\DTO.YouCom.csproj">
+      <Project>{c39a8372-0ef7-4467-b202-26db617d745c}</Project>
+      <Name>DTO.YouCom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

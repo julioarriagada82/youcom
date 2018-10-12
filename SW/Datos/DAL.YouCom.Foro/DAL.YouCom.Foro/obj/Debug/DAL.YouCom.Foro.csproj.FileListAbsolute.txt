@@ -1,0 +1,11 @@
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\YouCom.DTO.dll
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\GMaps.dll
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\Intermedia.IMSystem.dll
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\YouCom.DTO.pdb
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\obj\Debug\DAL.YouCom.Foro.csprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\YouCom.Foro.DAL.dll
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\bin\Debug\YouCom.Foro.DAL.pdb
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\obj\Debug\YouCom.Foro.DAL.dll
+C:\Proyectos\YouCom\SW\Datos\DAL.YouCom.Foro\DAL.YouCom.Foro\obj\Debug\YouCom.Foro.DAL.pdb

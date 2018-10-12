@@ -1,0 +1,150 @@
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\SeguridadBLL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\SeguridadBLL.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\Hidronet.DTO.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\Hidronet.Seguridad.DAL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\Hidrontet.service.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\Hidronet.DTO.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\Hidronet.Seguridad.DAL.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\bin\Debug\Hidrontet.service.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\obj\Debug\SeguridadBLL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\SeguridadBLL\obj\Debug\SeguridadBLL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\SeguridadBLL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\SeguridadBLL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\Hidronet.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\Hidronet.Seguridad.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\Hidronet.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\Hidronet.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\Hidronet.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\bin\Debug\Hidronet.Seguridad.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\obj\Debug\SeguridadBLL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\SeguridadBLL\obj\Debug\SeguridadBLL.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\SeguridadBLL.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\SeguridadBLL.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\Hidronet.DTO.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\Hidronet.Seguridad.DAL.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\Hidronet.Service.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\Hidronet.DTO.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\Hidronet.Service.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\bin\Debug\Hidronet.Seguridad.DAL.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\obj\Debug\SeguridadBLL.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\SeguridadBLL\obj\Debug\SeguridadBLL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\Intermedia.IMSystem.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\Intermedia.IMSystem.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\Intermedia.IMSystem.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\SeguridadBLL.csprojResolveAssemblyReference.cache
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.BLL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\Intermedia.IMSystem.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DTO.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Seguridad.DAL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.bll.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Facade.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.DAL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.mantenedores.DAL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\bin\Debug\YouCom.Comun.DAL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\SeguridadBLL.csprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\SeguridadBLL\obj\Debug\YouCom.Seguridad.BLL.pdb

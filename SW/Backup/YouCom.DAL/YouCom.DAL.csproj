@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F95922F3-D81C-4634-BC63-BB5E667866F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouCom.DAL</RootNamespace>
+    <AssemblyName>YouCom.DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoHogarDAL.cs" />
+    <Compile Include="ArchivoDAL.cs" />
+    <Compile Include="AreasComunesDAL.cs" />
+    <Compile Include="AvisosDAL.cs" />
+    <Compile Include="BannerDAL.cs" />
+    <Compile Include="CargoDAL.cs" />
+    <Compile Include="CasaDAL.cs" />
+    <Compile Include="CategoriaDAL.cs" />
+    <Compile Include="ComentarioAvisoDAL.cs" />
+    <Compile Include="ComercioDAL.cs" />
+    <Compile Include="ComunidadDAL.cs" />
+    <Compile Include="ContactoFamiliaDAL.cs" />
+    <Compile Include="ContenidoDAL.cs" />
+    <Compile Include="DirectivaDAL.cs" />
+    <Compile Include="EmergenciaDAL.cs" />
+    <Compile Include="EventoDAL.cs" />
+    <Compile Include="FamiliaDAL.cs" />
+    <Compile Include="ForoComunidadDAL.cs" />
+    <Compile Include="FrecuenciaDAL.cs" />
+    <Compile Include="GastosComunesDAL.cs" />
+    <Compile Include="HorarioTurnoDAL.cs" />
+    <Compile Include="ListaNegraDAL.cs" />
+    <Compile Include="NoticiaDAL.cs" />
+    <Compile Include="OcupacionDAL.cs" />
+    <Compile Include="ParentescoDAL.cs" />
+    <Compile Include="PeriodoHorarioDAL.cs" />
+    <Compile Include="PorteriaDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RankingServicioDAL.cs" />
+    <Compile Include="ServiciosDAL.cs" />
+    <Compile Include="TipoAvisoDAL.cs" />
+    <Compile Include="TipoCategoriaDAL.cs" />
+    <Compile Include="TipoVisitaDAL.cs" />
+    <Compile Include="TurnoDiarioDAL.cs" />
+    <Compile Include="VacacionesDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YouCom.DTO\YouCom.DTO.csproj">
+      <Project>{C39A8372-0EF7-4467-B202-26DB617D745C}</Project>
+      <Name>YouCom.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YouCom.service\YouCom.service.csproj">
+      <Project>{1C2C9EAD-A7C7-4389-B204-2288FF5BC448}</Project>
+      <Name>YouCom.service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

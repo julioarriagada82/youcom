@@ -1,0 +1,299 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/App_Master/Admin/Home.master" AutoEventWireup="true" CodeFile="MCondominio.aspx.cs" Inherits="YouCom.Web.Private.Administracion.Condominio" %>
+
+<%@ Import Namespace="System.Data" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:MultiView runat="server" ID="mvcEmpresa">
+    <asp:View runat="server" ID="mvcCrearCondominio">
+        <asp:HiddenField runat="server" ID="hidRutAdministrador" />
+        <asp:HiddenField runat="server" ID="hidRutCondominioAdmin" />
+        <div class="tit_box_white">
+            Mantenedor de Condominio
+        </div>
+        <div class="conte_box_whitetabs">
+            <div class="columna-left-160">
+                <p>
+                    Rut
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:TextBox ID="txtRut" runat="server" onblur="return validaRut(this)" onfocus="if(Trim(this.value)=='RUT')this.value=''"
+                    MaxLength="12" CssClass="calendar left" Width="102px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RFVCtaCteOrigen" runat="server" ControlToValidate="txtRut"
+                    Display="None" ErrorMessage="Rut es Oblitario.">*</asp:RequiredFieldValidator>
+                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" FilterType="Custom, Numbers"
+                    TargetControlID="txtRut" ValidChars=".-Kk">
+                </cc1:FilteredTextBoxExtender>
+            </div>
+            <div class="columna-left-160">
+                <p>
+                    Nombre
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:TextBox runat="server" ID="txtNombreCondominio" MaxLength="50" CssClass="texto_option"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="txtNombreCondominio"
+                    Display="None" ErrorMessage="Nombre Condominio es Obligatorio.">*</asp:RequiredFieldValidator>
+            </div>
+            <div class="borde_bottom cf">
+            </div>
+            <div class="columna-left-160">
+                <p>
+                    Direccion
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:TextBox runat="server" ID="txtDireccion" MaxLength="50" CssClass="texto_option"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtDireccion"
+                    Display="None" ErrorMessage="Direccion es Oblitario.">*</asp:RequiredFieldValidator>
+            </div>
+            <div class="columna-left-160">
+                <p>
+                    Región
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:DropDownList runat="server" ID="ddlRegion" AutoPostBack="true" CssClass="select_option" OnSelectedIndexChanged="ddlRegion_SelectedIndexChanged">
+                </asp:DropDownList>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="ddlRegion"
+                    Display="None" ErrorMessage="La región es Obligatoria.">*</asp:RequiredFieldValidator>
+            </div>
+            <div class="borde_bottom cf">
+            </div>
+            <div class="columna-left-160">
+                <p>
+                    Ciudad
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:DropDownList runat="server" ID="ddlCiudad" AutoPostBack="true" CssClass="select_option" OnSelectedIndexChanged="ddlCiudad_SelectedIndexChanged">
+                </asp:DropDownList>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="ddlCiudad"
+                    Display="None" ErrorMessage="La ciudad es Obligatoria.">*</asp:RequiredFieldValidator>
+            </div>
+            <div class="columna-left-160">
+                <p>
+                    Comuna
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:DropDownList runat="server" ID="ddlComuna" CssClass="select_option">
+                </asp:DropDownList>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="ddlComuna"
+                    Display="None" ErrorMessage="La comuna es Obligatoria.">*</asp:RequiredFieldValidator>
+            </div>
+            <div class="borde_bottom cf">
+            </div>
+            <div class="columna-left-160">
+                <p>
+                    Telefono
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:TextBox runat="server" MaxLength="12" ID="txtTelefono" CssClass="texto_option"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="txtTelefono"
+                    Display="None" ErrorMessage="Telefono es Oblitario.">*</asp:RequiredFieldValidator>
+                <cc1:FilteredTextBoxExtender ID="fitroTelefono" runat="server" FilterType="Numbers"
+                    TargetControlID="txtTelefono">
+                </cc1:FilteredTextBoxExtender>
+            </div>
+            <div class="columna-left-160">
+                <p>
+                    Email
+                </p>
+            </div>
+            <div class="columna-right">
+                <asp:TextBox runat="server" ID="txtMail" MaxLength="50" CssClass="texto_option"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="txtMail"
+                    Display="None" ErrorMessage="El Correo es Obligatorio.">*</asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" Display="none" ErrorMessage="Correo Invalido"
+                    runat="server" ControlToValidate="txtMail" SetFocusOnError="true" ValidationExpression="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"></asp:RegularExpressionValidator>
+            </div>
+            <div class="mt10">
+                <asp:LinkButton runat="server" ID="BtnCrear" Text="Grabar" OnClick="BtnCrear_Click" CssClass="BigButton" />
+                <asp:LinkButton runat="server" Visible="false" ID="btnEditar" Text="Editar" OnClick="btnEditar_Click" CssClass="BigButton" />
+            </div>
+        </div>
+
+        <asp:Repeater ID="rptCondominio" OnItemCommand="rptCondominio_OnItemCommand" runat="server">
+            <HeaderTemplate>
+                <div class="conte_box_white">
+                    <div class="conte_tabla_datos_body_detail ">
+                        <table class="tabla_datos_top" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <th class="w5 titulos">Rut
+                                </th>
+                                <th class="w10 titulos">Nombre
+                                </th>
+                                <th class="w10 titulos">Mail
+                                </th>
+                                <th class="w10 titulos">usuario ingreso
+                                </th>
+                                <th class="w5 titulos">fecha ingreso
+                                </th>
+                                <th class="w5 titulos">Fono
+                                </th>
+                                <th class="w5 titulos">Estado
+                                </th>
+                                <th class="w5 titulos">Editar
+                                </th>
+                                <th class="w5 titulos">Activar/Desactivar
+                                </th>
+                            </tr>
+            </HeaderTemplate>
+            <ItemTemplate>
+                <tr>
+                    <th class="w5">
+                        <%# DataBinder.Eval(Container.DataItem, "RutCondominio")%>
+                    </th>
+                    <th class="w10 ">
+                        <%# DataBinder.Eval(Container.DataItem, "NombreCondominio")%>
+                    </th>
+                    <th class="w10">
+                        <%# DataBinder.Eval(Container.DataItem, "EmailCondominio")%>
+                    </th>
+                    <th class="w10">
+                        <%# DataBinder.Eval(Container.DataItem, "UsuarioIngreso")%>
+                    </th>
+                    <th class="w5">
+                        <%# DataBinder.Eval(Container.DataItem, "FechaIngreso")%>
+                    </th>
+                    <th class="w5">
+                        <%# DataBinder.Eval(Container.DataItem, "TelefonoCondominio")%>
+                    </th>
+                    <th class="w5">
+                        <%# DataBinder.Eval(Container.DataItem, "Estado")%>
+                    </th>
+                    <th class="w5">
+                        <asp:LinkButton ID="LnkBtnCodPropuesta" CausesValidation="false" runat="server" ToolTip="Editar Tipo"
+                            CommandName="Editar">
+                            <asp:Image ID="Image2" runat="server" ImageUrl="~/images/icons/icon_edit_pen.png" />
+                        </asp:LinkButton>
+                        <asp:HiddenField ID="hdnNombre" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "NombreCondominio")%>' />
+                        <asp:HiddenField ID="hdnRut" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "RutCondominio")%>' />
+                        <asp:HiddenField ID="hdnTelefono" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "TelefonoCondominio")%>' />
+                        <asp:HiddenField ID="hdnMail" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "EmailCondominio")%>' />
+                        <asp:HiddenField ID="hdnDireccion" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "DireccionCondominio")%>' />
+                        <asp:HiddenField ID="HdnCondominioId" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "IdCondominio")%>' />
+                    </th>
+                    <th class="w5">
+                        <asp:LinkButton ID="LinkButton1" runat="server" ToolTip="Eliminar" Text='' CausesValidation="false"
+                            CommandName="Activar"><asp:Image runat="server" ImageUrl="~/images/icons/icon_ok.jpg" /></asp:LinkButton>
+                        <asp:LinkButton ID="LinkButton3" runat="server" ToolTip="Eliminar" Text='' CausesValidation="false"
+                            CommandName="Desactivar">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/icons/icon_trash.png" />
+                        </asp:LinkButton>
+                    </th>
+                </tr>
+            </ItemTemplate>
+            <FooterTemplate>
+                </table></div>
+            </FooterTemplate>
+        </asp:Repeater>
+    </asp:View>
+    <asp:View runat="server" ID="mvcFuncionalidades">
+        <div class="contenedor_box_center">
+            <h2>Datos del Condominio</h2>
+            <div class="conte_box_whitetabs_ch">
+                <div class="columna-left-160">
+                    <p>
+                        Nombre:
+                    </p>
+                </div>
+                <div class="columna-right">
+                    <p>
+                        <%=this.txtNombreCondominio.Text%>
+                    </p>
+                </div>
+                <div class="borde_bottom cf">
+                </div>
+                <div class="columna-left-160">
+                    <p>
+                        Dirección
+                    </p>
+                </div>
+                <div class="columna-right">
+                    <p>
+                        <%=this.txtDireccion.Text%>
+                    </p>
+                </div>
+                <div class="columna-left-160">
+                    <p>
+                        Teléfono
+                    </p>
+                </div>
+                <div class="columna-right">
+                    <p>
+                        <%=this.txtTelefono.Text%>
+                    </p>
+                </div>
+                <div class="columna-left-160">
+                    <p>
+                        Mail
+                    </p>
+                </div>
+                <div class="columna-right">
+                    <p>
+                        <%=this.txtMail.Text%>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor_box_center">
+            <h2>Asignación de Funcionalidades
+            </h2>
+            <asp:Repeater ID="rptGrupo" runat="server" OnItemDataBound="rptGrupo_OnItemDataBound">
+                <HeaderTemplate>
+                    <div>
+                        <table class="tabla_datos_body" border="0" cellspacing="0" cellpadding="0">
+                </HeaderTemplate>
+                <ItemTemplate>
+                    <tr>
+                        <td class="w10 txt-left">
+                            <%# DataBinder.Eval(Container.DataItem, "FuncionGrupoNombre")%>
+                            <asp:HiddenField ID="hdnFuncionGrupoCod" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "FuncionGrupoCod")%>' />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Repeater ID="rptFuncionesGrupo" runat="server">
+                                <HeaderTemplate>
+                                    <table class="tabla_datos_body" border="0" cellspacing="0" cellpadding="0">
+                                </HeaderTemplate>
+                                <ItemTemplate>
+                                    <tr>
+                                        <td class="w20">
+                                            <%# DataBinder.Eval(Container.DataItem, "FuncionNombre") %>
+                                            <asp:HiddenField ID="hdnFuncionGrupoCod" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "FuncionCod")%>' />
+                                        </td>
+                                        <td class="w4">
+                                            <asp:CheckBox runat="server" ID="chkFuncion" />
+                                        </td>
+                                    </tr>
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                    </table></div></div>
+                                </FooterTemplate>
+                            </asp:Repeater>
+                        </td>
+                    </tr>
+                </ItemTemplate>
+                <FooterTemplate>
+                    </table></div>
+                </FooterTemplate>
+            </asp:Repeater>
+            <div>
+                <asp:Button ID="btnAsignar" CssClass="BigButton mt10" CausesValidation="true" Text="Asignar Funcionalidades"
+                    runat="server" OnClick="btnAsignar_Click" />
+            </div>
+        </div>
+    </asp:View>
+</asp:MultiView>
+<asp:ValidationSummary ID="VSAll" runat="server" ShowMessageBox="True" ShowSummary="False"
+    ValidationGroup="DatosEmpresa" />
+<asp:ValidationSummary ID="ValidationSummary1" runat="server" ShowMessageBox="True"
+    ShowSummary="False" ValidationGroup="DatosUsuario" />
+
+</asp:Content>
+

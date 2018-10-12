@@ -1,0 +1,88 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="App_Master_HomePublico, App_Web_pd1o4iqd" %>
+
+<%@ Register TagName="Title" TagPrefix="Inclusion" Src="~/App_Master/Controls/Title.ascx" %>
+<%@ Register TagName="Footer" TagPrefix="Inclusion" Src="~/App_Master/Controls/WUCFooter.ascx" %>
+<%@ Register Src="Controls/MenuGeneral.ascx" TagName="MenuGeneral" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        <Inclusion:Title ID="Title" runat="server" />
+    </title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/youcom.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-5 col-md-5">
+            <ul class="nav nav-pills nav-justified">
+              <li class="nav-item">
+                <a href="">Portada</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Comunidad</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Clima</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="img-circle logo"></div>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-md-5">
+            <ul class="nav nav-pills nav-justified">
+              <li class="nav-item">
+                <a href="">Cómo llegar</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Emergencias</a>
+              </li>
+              <li class="nav-item">
+                <a href="">Comercio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <Inclusion:Footer ID="Footer1" runat="server" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    </form>
+
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='<% = ResolveUrl("~/js/validacion.js") %>'></script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C39A8372-0EF7-4467-B202-26DB617D745C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouCom.DTO</RootNamespace>
+    <AssemblyName>YouCom.DTO</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoHogarDTO.cs" />
+    <Compile Include="ArchivoDTO.cs" />
+    <Compile Include="AreasComunesDTO.cs" />
+    <Compile Include="AvisosDTO.cs" />
+    <Compile Include="BannerDTO.cs" />
+    <Compile Include="CargoDTO.cs" />
+    <Compile Include="CasaDTO.cs" />
+    <Compile Include="CategoriaDTO.cs" />
+    <Compile Include="ComentarioAvisoDTO.cs" />
+    <Compile Include="ComercioDTO.cs" />
+    <Compile Include="ComunidadDTO.cs" />
+    <Compile Include="ContactoFamiliaDTO.cs" />
+    <Compile Include="ContenidoDTO.cs" />
+    <Compile Include="DirectivaDTO.cs" />
+    <Compile Include="EmergenciaDTO.cs" />
+    <Compile Include="EventoDTO.cs" />
+    <Compile Include="ForoComunidadDTO.cs" />
+    <Compile Include="HorarioTurnoDTO.cs" />
+    <Compile Include="MensajePorteriaDTO.cs" />
+    <Compile Include="Mensajeria\SalasChatDTO.cs" />
+    <Compile Include="NoticiaDTO.cs" />
+    <Compile Include="PeriodoHorarioDTO.cs" />
+    <Compile Include="PorteriaDTO.cs" />
+    <Compile Include="Seguridad\CondominioDTO.cs" />
+    <Compile Include="EmpresaServicioDTO.cs" />
+    <Compile Include="FamiliaDTO.cs" />
+    <Compile Include="FrecuenciaDTO.cs" />
+    <Compile Include="GastosComunesDTO.cs" />
+    <Compile Include="ListaNegraDTO.cs" />
+    <Compile Include="LocalidadDTO.cs" />
+    <Compile Include="MantenedoresBase.cs" />
+    <Compile Include="MonedaDTO.cs" />
+    <Compile Include="OcupacionDTO.cs" />
+    <Compile Include="PaisDTO.cs" />
+    <Compile Include="ParametrosDTO.cs" />
+    <Compile Include="ParentescoDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RankingServicioDTO.cs" />
+    <Compile Include="RegionDTO.cs" />
+    <Compile Include="Seguridad\FuncionDTO.cs" />
+    <Compile Include="Seguridad\FuncionGrupoDTO.cs" />
+    <Compile Include="Seguridad\FuncionTipoDTO.cs" />
+    <Compile Include="Seguridad\PermisoDTO.cs" />
+    <Compile Include="Seguridad\UsuarioDTO.cs" />
+    <Compile Include="ServiciosDTO.cs" />
+    <Compile Include="TipoAvisoDTO.cs" />
+    <Compile Include="TipoCategoriaDTO.cs" />
+    <Compile Include="TipoVisitaDTO.cs" />
+    <Compile Include="TurnoDiarioDTO.cs" />
+    <Compile Include="VacacionesDTO.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C2C9EAD-A7C7-4389-B204-2288FF5BC448}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouCom.Service</RootNamespace>
+    <AssemblyName>YouCom.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="cl.intermedia.WebControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\cl.intermedia.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="GMaps">
+      <HintPath>..\..\..\..\Hidrosan.NET\SW\CMS.Service\bin\Debug\GMaps.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermedia.IMSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Intermedia.IMSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\..\..\BI.NET.InternetBanking\trunk\Binter\BI.Service\bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\..\..\..\BI.NET.InternetBanking\trunk\Binter\BI.Service\bin\Debug\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\..\..\..\BI.NET.InternetBanking\trunk\Binter\BI.Service\bin\Debug\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\..\..\..\BI.NET.InternetBanking\trunk\Binter\BI.Service\bin\Debug\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accesos\AccesoLogin.cs" />
+    <Compile Include="Accesos\NuevoCliente.cs" />
+    <Compile Include="Accesos\Permiso.cs" />
+    <Compile Include="BD\IMDB.cs" />
+    <Compile Include="BD\SQLHelper.cs" />
+    <Compile Include="Condominio.cs" />
+    <Compile Include="Configuracion\Config.cs" />
+    <Compile Include="Configuracion\Excel.cs" />
+    <Compile Include="Configuracion\Formato.cs" />
+    <Compile Include="Configuracion\General.cs" />
+    <Compile Include="Configuracion\IMFile.cs" />
+    <Compile Include="Configuracion\Response.cs" />
+    <Compile Include="Configuracion\Xml.cs" />
+    <Compile Include="Familia.cs" />
+    <Compile Include="Formato\Formato.cs" />
+    <Compile Include="Generales\General.cs" />
+    <Compile Include="Imagenes\Imagen.cs" />
+    <Compile Include="Mensajeria\Mensajes.cs" />
+    <Compile Include="Mensajeria\PlantillaCorreo.cs" />
+    <Compile Include="Parametrizacion\IParametros.cs" />
+    <Compile Include="Parametrizacion\Parametros.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seguridad\Crypt.cs" />
+    <Compile Include="Seguridad\Filtro.cs" />
+    <Compile Include="Seguridad\Login.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BI.DAL.AccesoDatos.TC.dll" />
+    <Content Include="bin\Debug\BI.DAL.AccesoDatos.TC.pdb" />
+    <Content Include="obj\Debug\BI.DAL.AccesoDatos.TC.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\BI.DAL.AccesoDatos.TC.dll" />
+    <Content Include="obj\Debug\BI.DAL.AccesoDatos.TC.pdb" />
+    <Content Include="Plantillas\propuesta_agrega_grupo_trabajo.html" />
+    <Content Include="Plantillas\propuesta_elimina_grupo_trabajo.html" />
+    <Content Include="Plantillas\propuesta_modifica_jp.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Error\" />
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Transaccion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DTO\YouCom.DTO\DTO.YouCom.csproj">
+      <Project>{c39a8372-0ef7-4467-b202-26db617d745c}</Project>
+      <Name>DTO.YouCom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YouCom.KtEncPwd\YouCon.KtEncPwd.vbproj">
+      <Project>{a7e50048-9dd4-49a4-9e20-fd309a75be44}</Project>
+      <Name>YouCon.KtEncPwd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

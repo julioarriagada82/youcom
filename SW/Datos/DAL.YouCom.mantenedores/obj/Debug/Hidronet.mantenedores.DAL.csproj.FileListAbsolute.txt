@@ -1,0 +1,36 @@
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\bin\Debug\Hidrontet.service.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\bin\Debug\Hidrontet.service.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\fuente\HidroNet\Nueva carpeta\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\BI.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\BI.Service.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\BI.Service.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\bin\Debug\BI.Service.pdb
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.dll
+C:\Users\pc\Desktop\Proyectos Independientes\Control y Gestion Capacidad Laboral\Documentacion\Fuente v2\Fuentes\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.mantenedores.DAL.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\bin\Debug\BI.Service.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\bin\Debug\Hidronet.DTO.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\bin\Debug\BI.Service.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.mantenedores.DAL\obj\Debug\Hidronet.mantenedores.DAL.pdb

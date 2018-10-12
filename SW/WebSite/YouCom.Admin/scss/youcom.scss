@@ -1,0 +1,126 @@
+/*
+ * Header section
+ */
+ body {
+ 	font-size: 12px;
+ 	font-family: arial;
+ }
+ .glyphicon {
+ 	top:0;
+ }
+.header {
+	background-color:#e9eaea;
+	height:82px;
+	.nav{
+		height:82px;
+		.nav-item {
+			height:82px;
+			a {
+				height:82px;
+				border-radius:0;
+			}
+			a:hover {
+				background-color:#cfcfcf;
+			}
+		}
+	}
+	.logo {
+		background-color: red;
+		border:10px solid #e9eaea;
+		height: 146px;
+		width: 146px;
+	}
+}
+
+/*
+ * Content section
+ */
+#content {
+	background: url(../img/bg1.jpg) no-repeat center top;
+	#login {
+		background-color: rgba(225, 225, 225, 0.5);
+		-webkit-border-radius: 0 0 10px 10px;
+		border-radius: 0 0 10px 10px;
+		padding-bottom: 20px;
+		padding-top: 20px; 
+	}
+	.legend,
+	.controls {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.legend {
+		margin-bottom: 150px;
+		margin-top: 150px;
+		padding-bottom:20px;
+		padding-top:20px;
+		.photo {
+			float: left;
+			padding-right:20px;
+		}
+		p {
+			color:#fff;
+			margin:0;
+		}
+	}
+	.controls {
+		margin-top: 150px;
+		padding-bottom:10px;
+		padding-top: 10px;
+		a {
+			color:#ffffff;
+			font-size: 28px;
+		}
+		a:hover {
+			color:#e9eaea;
+		}
+	}
+	.feature {
+		margin-bottom:20px;
+		h1 {
+			background-color:#1972a1;
+			color:#ffffff;
+			font-size:18px;
+			margin:0;
+			padding:20px 0;
+			text-align: center;
+		}
+		.txt-wrap {
+			// needs latest Compass, add '@import "compass"' to your scss
+			background: #eeeeee; /* Old browsers */
+			background: -moz-linear-gradient(top,  #eeeeee 0%, #ffffff 87%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(87%,#ffffff)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #eeeeee 0%,#ffffff 87%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #eeeeee 0%,#ffffff 87%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #eeeeee 0%,#ffffff 87%); /* IE10+ */
+			background: linear-gradient(to bottom,  #eeeeee 0%,#ffffff 87%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+			padding: 20px;
+
+		}
+	}
+}
+ 
+/*
+ * Footer section
+ */
+.footer {
+	background-color: #666;
+	color:#fff;
+	margin-top:20px;
+	p {
+		margin:5px 0;
+	}
+	.nav{
+		.nav-item {
+			a {
+				color:#fff;
+				border-radius:0;
+			}
+			a:hover {
+				background-color: transparent;
+				text-decoration: underline;
+			}
+		}
+	}
+}

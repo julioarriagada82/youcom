@@ -1,0 +1,58 @@
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.dll
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.pdb
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.dll
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.dll
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.dll
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.service.dll
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Intermedia.IMSystem.dll
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.pdb
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.pdb
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.service.pdb
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.pdb
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.dll
+D:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Intermedia.IMSystem.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Nueva carpeta\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Proy.DAL.Accesos.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Proy.DAL.Accesos.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Hidronet_new\HidroNet\Fuentes\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.facade.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Proy.DAL.Accesos.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Service.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Prop.DAL.Accesos.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.DTO.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Proy.DAL.Accesos.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Service.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\bin\Debug\Hidronet.Comun.DAL.Accesos.pdb
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.dll
+F:\Proyectos\Hidronet\SW\HidronetNew\Hidronet.facade\Hidronet.facade\obj\Debug\Hidronet.facade.pdb

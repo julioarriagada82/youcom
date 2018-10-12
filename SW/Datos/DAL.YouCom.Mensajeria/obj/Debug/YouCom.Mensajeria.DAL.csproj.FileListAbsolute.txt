@@ -1,0 +1,40 @@
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\Intermedia.IMSystem.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\Intermedia.IMSystem.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\Intermedia.IMSystem.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Mensajeria.DAL.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\Intermedia.IMSystem.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.DTO.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\bin\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.csprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.DAL\YouCom.Mensajeria.DAL\obj\Debug\YouCom.Mensajeria.DAL.pdb

@@ -1,0 +1,59 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using YouCom.DTO;
+using YouCom.bll;
+using YouCom.DTO.Seguridad;
+
+public partial class mantenedores_MLocalidadaspx : Seguridad
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void CargarLocalidadInactivos()
+    {
+        rptLocalidad.DataSource = MantenedoresBLL.listaLocalidadInactivo();
+        rptLocalidad.DataBind();
+    }
+    protected void lblPapeleria_OnClick(object sender, EventArgs e)
+    {
+        pnlPapelera.Visible = true;
+        MLocalidad1.Visible = false;
+        CargarLocalidadInactivos();
+    }
+    protected void rptLocalidad_OnItemCommand(object sender, RepeaterCommandEventArgs e)
+    {
+  
+        if (e.CommandName == "Activar")
+        {
+            HiddenField hdnlocalidad = new HiddenField();
+            hdnlocalidad = (HiddenField)e.Item.FindControl("hdnlocalidad");
+
+
+            LocalidadDTO theLocalidadDTO = new LocalidadDTO();
+            theLocalidadDTO.IdLocalidad = hdnlocalidad.Value;
+            theLocalidadDTO.UsuarioModificacion = myUsuario.Rut;
+            bool respuesta = YouCom.bll.MantenedoresBLL.ActivaLocalidad(theLocalidadDTO);
+            if (respuesta)
+            {
+                CargarLocalidadInactivos();
+                if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+                {
+                    string script = "alert('Localidad Activada correctamente.');";
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                }
+            }
+            else
+            {
+            }
+
+
+        }
+
+    }
+  
+}

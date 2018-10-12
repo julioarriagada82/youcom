@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+/// <summary>
+/// Descripción breve de SessionControl
+/// </summary>
+public class SessionControl : System.Web.UI.UserControl
+{
+    protected override void OnInit(EventArgs e)
+    {
+        if (Session["usuario"] == null)
+        {
+            //Login.paginaAnterior = string.Empty;
+            Response.Redirect("~/login.aspx");
+        }
+        base.OnInit(e);
+    }
+    public YouCom.DTO.Seguridad.UsuarioDTO Informacionusuario()
+    {
+        List<YouCom.DTO.Seguridad.UsuarioDTO> operador = new List<YouCom.DTO.Seguridad.UsuarioDTO>();
+        operador = (Session["InformacionUsuario"] as List<YouCom.DTO.Seguridad.UsuarioDTO>);
+
+        YouCom.DTO.Seguridad.UsuarioDTO theOperadorDTO = new YouCom.DTO.Seguridad.UsuarioDTO();
+
+        foreach (var item in operador)
+        {
+            theOperadorDTO.Usuario = item.Usuario;
+            theOperadorDTO.Nombres = item.Nombres;
+            theOperadorDTO.Paterno = item.Paterno;
+            theOperadorDTO.Materno = item.Materno;
+            theOperadorDTO.TheComunidadDTO = item.TheComunidadDTO;
+            theOperadorDTO.TheCondominioDTO = item.TheCondominioDTO;
+        }
+        return theOperadorDTO;
+        {
+
+        }
+    }
+}

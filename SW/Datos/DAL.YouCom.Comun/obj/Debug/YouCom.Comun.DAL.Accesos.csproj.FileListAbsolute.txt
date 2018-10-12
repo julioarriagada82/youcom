@@ -1,0 +1,9 @@
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\obj\Debug\Hidronet.Comun.DAL.Accesos.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\obj\Debug\Hidronet.Comun.DAL.Accesos.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\bin\Debug\Hidronet.Comun.DAL.Accesos.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\bin\Debug\Hidronet.Comun.DAL.Accesos.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\bin\Debug\YouCom.DTO.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\bin\Debug\YouCom.Service.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\bin\Debug\YouCom.Service.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.Comun.DAL.Accesos\bin\Debug\YouCom.DTO.pdb

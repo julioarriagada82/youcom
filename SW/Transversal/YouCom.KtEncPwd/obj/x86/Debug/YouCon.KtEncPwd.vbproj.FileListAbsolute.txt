@@ -1,0 +1,14 @@
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.pdb
+C:\Proyectos\YouCom\SW\Transversal\YouCom.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.pdb
+C:\Proyectos\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\YouCon.KtEncPwd.vbprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.pdb
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.pdb
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.pdb
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.KtEncPwd\obj\x86\Debug\YouCon.KtEncPwd.vbprojResolveAssemblyReference.cache

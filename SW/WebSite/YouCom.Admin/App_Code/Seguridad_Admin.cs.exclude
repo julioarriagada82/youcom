@@ -1,0 +1,89 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+using Intermedia.IMSystem.IMFile;
+using System.Configuration;
+
+/// <summary>
+/// Descripción breve de Seguridad
+/// </summary>
+public class Seguridad_Admin : System.Web.UI.Page
+{
+    protected override void OnInit(EventArgs e)
+    {
+        if (Session["usuario"] == null)
+        {
+            //Login.paginaAnterior = string.Empty;
+            Response.Redirect("~/login.aspx");
+        }
+        base.OnInit(e);
+    }
+
+    public YouCom.DTO.Seguridad.UsuarioDTO Informacionusuario()
+    {
+        List<YouCom.DTO.Seguridad.UsuarioDTO> operador = new List<YouCom.DTO.Seguridad.UsuarioDTO>();
+        operador = (Session["InformacionUsuario"] as List<YouCom.DTO.Seguridad.UsuarioDTO>);
+
+        YouCom.DTO.Seguridad.UsuarioDTO theOperadorDTO = new YouCom.DTO.Seguridad.UsuarioDTO();
+
+        foreach (var item in operador)
+        {
+            theOperadorDTO.Usuario = item.Usuario;
+            theOperadorDTO.Nombres = item.Nombres;
+            theOperadorDTO.Paterno = item.Paterno;
+            theOperadorDTO.Materno = item.Materno;
+            theOperadorDTO.TheComunidadDTO = item.TheComunidadDTO;
+            theOperadorDTO.TheCondominioDTO = item.TheCondominioDTO;
+        }
+        return theOperadorDTO;
+        {
+
+        }
+    }
+
+    public string ProcessOtherFile(System.Web.UI.WebControls.FileUpload file, System.Web.UI.WebControls.CheckBox eliminarImagen, string ruta)
+    {
+        string retorno = "";
+        if (!string.IsNullOrEmpty(file.PostedFile.FileName))
+        {
+            Random myRandom = new Random();
+            string xName = myRandom.Next(1, 1000000).ToString();
+            if (IMFile.GetNameFile(file.PostedFile.FileName).Length > 16)
+                retorno = xName + "_" + IMFile.GetNameFile(file.PostedFile.FileName).Substring(0, 16) + IMFile.GetExtensionFile(file.PostedFile.FileName);
+            else
+                retorno = xName + "_" + IMFile.GetNameFile(file.PostedFile.FileName).Substring(0, IMFile.GetNameFile(file.PostedFile.FileName).Length) + IMFile.GetExtensionFile(file.PostedFile.FileName);
+            file.PostedFile.SaveAs(Server.MapPath(ruta + retorno));
+        }
+        if (eliminarImagen != null)
+        {
+            if (eliminarImagen.Checked)
+            {
+                IMFile.Delete(Server.MapPath(ruta + retorno));
+                retorno = "";
+                eliminarImagen.Checked = false;
+                eliminarImagen.Visible = false;
+            }
+        }
+        return retorno;
+    }
+
+
+    public string GetMaxUploadMessage()
+    {
+        return ConfigurationManager.AppSettings["MaxUploadMessage"];
+    }
+
+    protected string GetBasePath()
+    {
+        string path = "~/fckeditor/";
+        return path;
+    }
+
+    public long GetMaxUpload()
+    {
+        return long.Parse(ConfigurationManager.AppSettings["MaxUpload"]);
+    }
+}
+

@@ -1,0 +1,90 @@
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll.config
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll.config
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.pdb
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.dll
+F:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll.config
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\cl.intermedia.WebControls.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\Intermedia.IMSystem.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll.config
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.pdb
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.service.csprojResolveAssemblyReference.cache
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.dll
+C:\Users\Julio Arriagada\Desktop\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.service.csprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll.config
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\YouCom.DTO.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\cl.intermedia.WebControls.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\bin\Debug\cl.intermedia.WebControls.xml
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\YouCom.service\obj\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\WebSite\YouCom\Transversal\YouCom.service\obj\Debug\YouCom.service.csprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\WebSite\YouCom\Transversal\YouCom.service\obj\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\WebSite\YouCom\Transversal\YouCom.service\obj\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll.config
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.dll
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.pdb
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\obj\Debug\YouCom.service.csprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll.config
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.service.csprojResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll.config
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\GMaps.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.pdb
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.service.csprojResolveAssemblyReference.cache
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.pdb
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\BI.DAL.KtEncPwd.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\NPOI.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\NPOI.OOXML.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Proyectos\YouCom\SW\Transversal\YouCom.service\bin\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\BI.DAL.KtEncPwd.pdb
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll.config
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.dll
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.Service.pdb
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\BI.DAL.KtEncPwd.dll
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.dll
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\YouCom.DTO.pdb
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\bin\Debug\BI.DAL.KtEncPwd.pdb
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.service.csprojResolveAssemblyReference.cache
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.dll
+D:\Binter\Documentacion\SW\YouCom\SW\Transversal\YouCom.service\obj\Debug\YouCom.Service.pdb

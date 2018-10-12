@@ -1,0 +1,14 @@
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.pdb
+C:\Proyectos\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.dll
+C:\Proyectos\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\bin\x86\Debug\BI.DAL.KtEncPwd.pdb
+C:\Proyectos\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.dll
+C:\Proyectos\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\obj\x86\Debug\BI.DAL.KtEncPwd.pdb
+C:\Proyectos\BI.NET.InternetBanking\trunk\Binter\BI.KtEncPwd\obj\x86\Debug\BI.KtEncPwd.vbprojResolveAssemblyReference.cache

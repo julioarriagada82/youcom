@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>YouCom - Chat - Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <!-- Login data -->
+      <div class="log-info">
+        <div class="container-fluid">
+          <ul>
+            <li>Bienvenido, <span class="user-name">Julio Arriagada Jimenez.</span></li>
+            <li class="hidden-xs"><span class="glyphicon glyphicon-calendar"></span> Sábado 29/03/2014</li>
+            <li class="hidden-xs"><span class="glyphicon glyphicon-time"></span> 16:43</li>
+            <li><a href=""><span class="glyphicon glyphicon-off"></span> Cerrar Sesión</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">YouCom</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Portada</a></li>
+            <li><a href="#">Comunidad</a></li>
+            <li><a href="#">Clima</a></li>
+            <li><a href="#">Cómo llegar</a></li>
+            <li><a href="#">Emergencias</a></li>
+            <li><a href="#">Comercio</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="page-header">Administración</li>
+            <li><a href="dashboard-contacto.html">Contacto</a></li>
+            <li><a href="dashboard-directiva.html">Directiva</a></li>
+            <li><a href="#">Estatus y Actas</a></li>
+            <li><a href="#">Turnos Diarios</a></li>
+            <li><a href="dashboard-procedimientos-normas.html">Procedimientos y Normas</a></li>
+            <li><a href="dashboard-estado-financiero.html">Estado financiero</a></li>
+            <li><a href="dashboard-reservas.html">Reservas</a></li>
+            <li><a href="dashboard-lista-negra.html">Lista Negra</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="page-header">Portal</li>
+            <li><a href="dashboard-noticias.html">Noticias</a></li>
+            <li><a href="dashboard-actividades.html">Actividades</a></li>
+            <li><a href="">Comunidad</a></li>
+            <li><a href="dashboard-eventos.html">Eventos</a></li>
+            <li><a href="">Mis Vecinos</a></li>
+            <li class="active"><a href="dashboard-chat.html">Chat</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Chat</h1>
+          <h2>Salas</h2>
+          <h3>Sala Condominio</h3>
+          <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+            <span id="ctl00_ContentPlaceHolder1_Timer1" style="visibility:hidden;display:none;"></span>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                    <td style="width: 500px;">
+                        <div id="divMessages" style="background-color: White; border-color: Black; border-width: 1px;
+                            border-style: solid; height: 300px; width: 592px; overflow-y: scroll; font-size: 11px;
+                            padding: 4px 4px 4px 4px;" onresize="SetScrollPosition()">
+                            <div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 15/03/2014 3:48:50</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 15/03/2014 3:51:40</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 15/03/2014 3:52:34</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  hola francisco que tal</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  bien y tu</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 17/03/2014 19:05:49</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 18/03/2014 7:11:37</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Como andas</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Como andas</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 19/03/2014 13:26:17</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  estas?</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 19/03/2014 13:26:48</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 19/03/2014 13:27:17</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 19/03/2014 13:27:45</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 19/03/2014 13:28:16</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 19/03/2014 13:28:32</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 19/03/2014 13:46:54</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 23/03/2014 14:46:18</div><div style="padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 30/03/2014 17:06:31</div><div style="background-color: #EFEFEF; padding: 10px;"><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  Acaba de conectarse! 30/03/2014 17:06:38</div>
+                        </div>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <div id="divUsers" style="background-color: White; border-color: Black; border-width: 1px;
+                            border-style: solid; height: 300px; width: 150px; overflow-y: scroll; font-size: 11px;
+                            padding: 4px 4px 4px 4px;">
+                            <img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  <a href="#">Francisco Otarola</a><br><img src="Images/manIcon.gif" style="vertical-align:middle" alt="">  <b>Julio Arriagada</b><br>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input name="ctl00$ContentPlaceHolder1$txtMessage" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtMessage" onkeyup="ReplaceChars()" onfocus="SetToEnd(this)" style="width:500px;">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnSend" value="Send" onclick="SetScrollPosition();" id="ctl00_ContentPlaceHolder1_btnSend">
+                        &nbsp; <b>Color:</b>
+                        <select name="ctl00$ContentPlaceHolder1$ddlColor" id="ctl00_ContentPlaceHolder1_ddlColor">
+<option selected="selected" value="Black">Black</option>
+<option value="Blue">Blue</option>
+<option value="Navy">Navy</option>
+<option value="Red">Red</option>
+<option value="Orange">Orange</option>
+<option value="#666666">Gray</option>
+<option value="Green">Green</option>
+<option value="#FF00FF">Pink</option>
+
+</select>
+                        &nbsp;
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnLogOut" value="Log Out" id="ctl00_ContentPlaceHolder1_btnLogOut">
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

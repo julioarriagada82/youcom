@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>YouCOM</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/screen.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-data">
+            <div class="container">
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <i class="fa fa-user"></i> Bienvenido Francisco
+                    </li>
+                    <li>
+                        <a href="#" title="Cerrar sesión"><i class="fa fa-sign-out"></i> Cerrar sesión</a>
+                    </li>
+                </ul>
+            </div><!--container-->
+        </div><!--container-data -->
+        <div class="container-menu">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" title="YouCOM">
+                        <img src="images/youcom.fw.png" alt="YouCOM">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" title="Portada" class="active">Portada</a></li>
+                        <li><a href="#" title="Mi Comunidad">Mi Comunidad</a></li>
+                        <li><a href="#" title="Mi Entorno y Servicios">Mi Entorno y Servicios</a></li>
+                        <li><a href="#" title="Mi Hogar">Mi Hogar</a></li>
+                    </ul>
+                </div>
+            </div><!--container-->
+        </div>
+        <div class="container-accesos">
+            <div class="container accesos">
+                <form>
+                <div class="col-md-3">
+                    <span class="btn-publicar">
+                        <input type="submit" name="publicar" value="Publicar" class="btn btn-primary btn-lg celeste publicar">
+                    </span>
+                </div>
+                <div class="col-md-3">
+                    <span class="btn-mensajes">
+                        <a data-toggle="modal" data-target="#modalMensajes" class="btn btn-primary btn-lg gris mensajes">Mensajes <sup>(8)</sup></a>
+                    </span>
+                </div>
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <span class="btn-filtro">
+                            <input type="button" name="filtro" value="Filtro" class="btn btn-primary btn-lg dropdown-toggle gris filtro" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#" title="Opción">Opción 1</a>
+                                    <a class="dropdown-item" href="#" title="Opción">Opción 2</a>
+                                    <a class="dropdown-item" href="#" title="Opción">Opción 3</a>
+                              </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <span class="btn-buscar">
+                        <input type="button" name="buscar" value="Buscar" class="btn btn-primary btn-lg gris buscar getFullSearch">
+                    </span>
+                </div>
+                </form>
+                <div class="search-full text-right"><a class="pull-right search-close"> <i class=" fa fa-times-circle"> </i> </a>
+                    <div class="searchInputBox pull-right">
+                        <input type="search" data-searchurl="search?=" name="q" placeholder="Escriba para iniciar la búsqueda ..." class="search-input">
+                        <button class="btn-nobg search-btn" type="submit"><i class="fa fa-search"> </i></button>
+                    </div>
+                </div>
+            <!--/.search-full-->
+            </div>
+        </div>
+    </nav>
+
+    <div class="container inicio">
+        <div class="row">
+            <div class="col-12 col-md-7 mercado">
+                <div class="row">
+                    <h1 class="pull-left">Mercado</h1>
+                    <a class="btn btn-primary btn-lg celeste volver" href="/">Volver</a>
+                    <div class="both"></div>
+                    <p>Estás en: <a href="#" title="Inicio">Inicio</a> |  Mercado</p>
+                        <div class="dropdown">
+                            <span class="btn-filtro">
+                                <input type="button" name="filtro" value="Categorías:" class="btn btn-primary btn-lg dropdown-toggle gris filtro" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#" title="Opción">Opción 1</a>
+                                        <a class="dropdown-item" href="#" title="Opción">Opción 2</a>
+                                        <a class="dropdown-item" href="#" title="Opción">Opción 3</a>
+                                  </div>
+                            </span>
+                        </div>
+                        <div class="col-5 col-sm-5 no-padding-left">
+                            <div class="espacio_mercado"></div>
+                            <img src="images/edificio.jpg" class="img-responsive" alt="Edificio 1">
+                            <p class="tit-publicacion">ANUNCIO 1</p>
+                            <p class="detalle-publicacion">This is a template that is great for small businesses. It doesn't have too much fancy flare to it.</p>
+                            <div class="direccion">
+                                <p>Dirección: Av. Los Maitenes 2545, of. 45</p>
+                                <p>Teléfeno: 22 3652125</p>
+                                <p>Sitio Web: <a href="#" title="Url servicio" target="_blank">www.servicio1.cl</a></p>
+                            </div>
+                            
+                            <div class="pull-left">
+                                <a class="btn btn-primary btn-lg gris btn-info" href="#">$85.000</a>
+                            </div>
+                            <div class="pull-right">
+                                <a class="btn btn-primary btn-lg celeste btn-info" href="#" data-toggle="modal" data-target="#modalDetalleMercado">Ver más</a>
+                            </div>
+                        </div>
+
+                        <div class="col-5 col-sm-5 no-padding-left pull-right">
+                            <div class="espacio_mercado"></div>
+                            <img src="images/edificio.jpg" class="img-responsive" alt="Edificio 1">
+                            <p class="tit-publicacion">ANUNCIO 1</p>
+                            <p class="detalle-publicacion">This is a template that is great for small businesses. It doesn't have too much fancy flare to it.</p>
+                            <div class="direccion">
+                                <p>Dirección: Av. Los Maitenes 2545, of. 45</p>
+                                <p>Teléfeno: 22 3652125</p>
+                                <p>Sitio Web: <a href="#" title="Url servicio" target="_blank">www.servicio1.cl</a></p>
+                            </div>
+                            
+                            <div class="pull-left">
+                                <a class="btn btn-primary btn-lg gris btn-info" href="#">$85.000</a>
+                            </div>
+                            <div class="pull-right">
+                                <a class="btn btn-primary btn-lg celeste btn-info" href="#" data-toggle="modal" data-target="#modalDetalleMercado">Ver más</a>
+                            </div>
+                        </div>
+                        <div class="borde"></div>
+
+                        <div class="col-5 col-sm-5 no-padding-left">
+                            <div class="espacio_mercado"></div>
+                            <img src="images/edificio.jpg" class="img-responsive" alt="Edificio 1">
+                            <p class="tit-publicacion">ANUNCIO 1</p>
+                            <p class="detalle-publicacion">This is a template that is great for small businesses. It doesn't have too much fancy flare to it.</p>
+                            <div class="direccion">
+                                <p>Dirección: Av. Los Maitenes 2545, of. 45</p>
+                                <p>Teléfeno: 22 3652125</p>
+                                <p>Sitio Web: <a href="#" title="Url servicio" target="_blank">www.servicio1.cl</a></p>
+                            </div>
+                            
+                            <div class="pull-left">
+                                <a class="btn btn-primary btn-lg gris btn-info" href="#">$85.000</a>
+                            </div>
+                            <div class="pull-right">
+                                <a class="btn btn-primary btn-lg celeste btn-info" href="#" data-toggle="modal" data-target="#modalDetalleMercado">Ver más</a>
+                            </div>
+                        </div>
+
+                        <div class="col-5 col-sm-5 no-padding-left pull-right">
+                            <div class="espacio_mercado"></div>
+                            <img src="images/edificio.jpg" class="img-responsive" alt="Edificio 1">
+                            <p class="tit-publicacion">ANUNCIO 1</p>
+                            <p class="detalle-publicacion">This is a template that is great for small businesses. It doesn't have too much fancy flare to it.</p>
+                            <div class="direccion">
+                                <p>Dirección: Av. Los Maitenes 2545, of. 45</p>
+                                <p>Teléfeno: 22 3652125</p>
+                                <p>Sitio Web: <a href="#" title="Url servicio" target="_blank">www.servicio1.cl</a></p>
+                            </div>
+                            
+                            <div class="pull-left">
+                                <a class="btn btn-primary btn-lg gris btn-info" href="#">$85.000</a>
+                            </div>
+                            <div class="pull-right">
+                                <a class="btn btn-primary btn-lg celeste btn-info" href="#" data-toggle="modal" data-target="#modalDetalleMercado">Ver más</a>
+                            </div>
+                        </div>
+                        <div class="espacio-mercado"></div>
+                        <div class="paginador">
+                            <ul class="pagination">
+                              <li><a href="#">&laquo;</a></li>
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+
+            <!--segundo bloque-->
+            <div class="col-5 col-md-5 offset-sm-1">
+                <div class="sidebar-module">
+                    <div class="well well-lg">
+                        <div class="col-sm-2"><img src="images/signo-peso.fw.png" title="Gastos Comunes"></div>
+                        <div class="col-sm-10">
+                        <p class="tit-info">GASTOS COMUNES PENDIENTES</p>
+                        <p class="valor">$120.000</p>
+                        <form>
+                            <input type="submit" class="btn btn-primary btn-lg naranjo btn-info" type="submit" value="Pagar">
+                        </form>
+                        <p class="vencimiento">Vencimiento: 28/06/2016</p>
+                        </div>
+                    </div>
+                </div><!--sidebar-->
+
+                <div class="sidebar-module">
+                    <div class="well well-lg">
+                        <div class="col-sm-2"><img src="images/ultimos-ingresos.fw.png" title="Gastos Comunes"></div>
+                        <div class="col-sm-10">
+                        <p class="tit-info">ÚLTIMOS INGRESOS</p>
+                            <div class="datos-ingresos">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td>Juan Pérez Riquelme</td>
+                                    <td class="fecha">01/11/2016 12:30 horas</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Marcelo Osandon Peña</td>
+                                    <td class="fecha">01/11/2016 12:30 horas</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Juan Díaz Díaz</td>
+                                    <td class="fecha">01/11/2016 12:30 horas</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Juan Pérez Riquelme</td>
+                                    <td class="fecha">01/11/2016 12:30 horas</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Marcelo Osandon Peña</td>
+                                    <td class="fecha">01/11/2016 12:30 horas</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Juan Díaz Díaz</td>
+                                    <td class="fecha">01/11/2016 12:30 horas</td>
+                                  </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--sidebar-->
+
+                <div class="sidebar-module">
+                    <div class="well well-lg">
+                        <div class="col-sm-2"><img src="images/mercado-pago.fw.png" title="Mercado Pago"></div>
+                        <div class="col-sm-10">
+                        <p class="tit-info">MICOM MERCADO</p>
+                            <div class="row ofertas-micom-mercado">
+                                <div class="col-sm-4">
+                                    <img src="images/servicio-mercado.jpg" alt="MICOM MERCADO">
+                                </div>
+                                <div class="col-sm-8">
+                                    <p class="tit-mercado-pago"><a href="#" title="Poda Semestral Jardín">Poda Semestral Jardín</a></p>
+                                    <p class="valor-mercado">$40.000</p>
+                                </div>
+                            </div>
+                            <div class="row ofertas-micom-mercado">
+                                <div class="col-sm-4">
+                                    <img src="images/servicio-mercado.jpg" alt="MICOM MERCADO">
+                                </div>
+                                <div class="col-sm-8">
+                                    <p class="tit-mercado-pago"><a href="#" title="Poda Semestral Jardín">Poda Semestral Jardín</a></p>
+                                    <p class="valor-mercado">$40.000</p>
+                                </div>
+                            </div>
+                            <div class="row ofertas-micom-mercado">
+                                <div class="col-sm-4">
+                                    <img src="images/servicio-mercado.jpg" alt="MICOM MERCADO">
+                                </div>
+                                <div class="col-sm-8">
+                                    <p class="tit-mercado-pago"><a href="#" title="Poda Semestral Jardín">Poda Semestral Jardín</a></p>
+                                    <p class="valor-mercado">$40.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--sidebar-->
+
+                <div class="sidebar-module">
+                    <div class="well well-lg">
+                        <div class="col-sm-2"><img src="images/mercado-pago.fw.png" title="Mercado Pago"></div>
+                        <div class="col-sm-10">
+                        <p class="tit-info">NUEVOS SERVICIOS REGISTRADOS Y CALÍFICADOS</p>
+                            <div class="row ofertas-micom-mercado">
+                                <div class="col-sm-4">
+                                    <img src="images/guardias.jpg" alt="MICOM MERCADO">
+                                </div>
+                                <div class="col-sm-8">
+                                    <p class="tit-mercado-pago"><a href="#" title="Poda Semestral Jardín">Guardias de Seguridad 24/7</a></p>
+                                    <p class="valor-mercado">$40.000</p>
+                                </div>
+                            </div>
+                            <div class="row ofertas-micom-mercado">
+                                <div class="col-sm-4">
+                                    <img src="images/guardias.jpg" alt="MICOM MERCADO">
+                                </div>
+                                <div class="col-sm-8">
+                                    <p class="tit-mercado-pago"><a href="#" title="Poda Semestral Jardín">Guardias de Seguridad 24/7</a></p>
+                                    <p class="valor-mercado">$40.000</p>
+                                </div>
+                            </div>
+                            <div class="row ofertas-micom-mercado">
+                                <div class="col-sm-4">
+                                    <img src="images/guardias.jpg" alt="MICOM MERCADO">
+                                </div>
+                                <div class="col-sm-8">
+                                    <p class="tit-mercado-pago"><a href="#" title="Poda Semestral Jardín">Guardias de Seguridad 24/7</a></p>
+                                    <p class="valor-mercado">$40.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--sidebar-->
+
+                <div class="sidebar-module">
+                    <div class="well well-lg">
+                        <div class="col-sm-2"><img src="images/contacto.fw.png" title="Contacto"></div>
+                        <div class="col-sm-10">
+                            <p class="tit-info">CONTACTO</p>
+                            <a class="btn btn-primary btn-lg celeste btn-info-cajas" href="#">Enviar Mensaje</a>
+                        </div>
+                    </div>
+                </div><!--sidebar-->
+
+                <div class="sidebar-module">
+                    <div class="well well-lg">
+                        <div class="col-sm-2"><img src="images/turnos.fw.png" title="Turnos"></div>
+                        <div class="col-sm-10">
+                            <p class="tit-info">TURNOS</p>
+                            <p>Turno Mañana, PORTERO CONDOMINIO</p>
+                            <p>Horario Lunes a Viernes de 08:00 - 18:00 horas.</p>
+                        </div>
+                    </div>
+                </div><!--sidebar-->
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>YouCom</p>
+                    <p>Todos los derechos reservados.</p>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="pull-right">
+                        <li><a href="#" title="Políticas de Privacidad">Políticas de Privacidad</a></li>
+                        <li><a href="#" title="Ayuda">Ayuda</a></li>
+                        <li><a href="#" title="Contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Mensajes -->
+    <div id="modalMensajes" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Mensajes</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="mensaje">
+                        <p class="nombre-usuario">Carlitos Urra Muñoz</p>
+                        <div class="btn btn-primary no-leido">NO LEÍDO</div>
+                        <div class="both"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,</p>
+                        <div class="botones-modal pull-right">
+                            
+                            <input type="buttom" class="btn btn-primary agregar-comentario" value="AGREGAR COMENTARIO">
+                            <input type="buttom" class="btn btn-primary eliminar" value="ELIMINAR">
+                        </div>
+                    </div><!--mensaje-->
+                    <div class="mensaje">
+                        <p class="nombre-usuario">Carlitos Urra Muñoz</p>
+                        <div class="btn btn-primary no-leido">NO LEÍDO</div>
+                        <div class="both"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,</p>
+                        <div class="botones-modal pull-right">
+                            
+                            <input type="buttom" class="btn btn-primary agregar-comentario" value="AGREGAR COMENTARIO">
+                            <input type="buttom" class="btn btn-primary eliminar" value="ELIMINAR">
+                        </div>
+                    </div><!--mensaje-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal detalle de mercado -->
+    <div id="modalDetalleMercado" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Anuncio 1</h4>
+                </div>
+                <div class="modal-body">
+                <img src="images/edificio.jpg" class="img-responsive" alt="Edificio 1">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                    <div class="direccion">
+                        <p>Dirección: Av. Los Maitenes 2545, of. 45
+                        <p>Teléfeno: 22 3652125
+                        <p>Sitio Web: <a href="#" title="Url servicio" target="_blank">www.servicio1.cl</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function () {
+    $(".getFullSearch").on('click', function (e) {
+        $('.search-full').addClass("active"); 
+        e.preventDefault();
+    });
+
+    $('.search-close').on('click', function (e) {
+        $('.search-full').removeClass("active"); 
+        e.preventDefault();
+    });
+    $(".btn-nuevo-comentario").click(function(){
+        $(".escribir-comentario").toggle(500);
+        return false;
+    });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,388 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using YouCom.DTO.Seguridad;
+
+namespace YouCom.Web.Private.Administracion
+{
+    public partial class Condominio : Intermedia.IMSystem.Navigation.UserControl.WebUserControl
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!Page.IsPostBack)
+            {
+                cargarCondominio();
+                cargarFuncionGrupoSistema();
+                cargarRegion(3);
+                SelView(0);
+            }
+
+        }
+
+        protected void cargarRegion(decimal idPais)
+        {
+            ddlRegion.DataSource = YouCom.bll.RegionBLL.listaRegionByPais(idPais);
+            ddlRegion.DataTextField = "NombreRegion";
+            ddlRegion.DataValueField = "IdRegion";
+            ddlRegion.DataBind();
+            ddlRegion.Items.Insert(0, new ListItem("Seleccione Región", string.Empty));
+        }
+
+        protected void cargarCiudad(decimal idRegion)
+        {
+            ddlCiudad.DataSource = YouCom.bll.CiudadBLL.listaCiudadByRegion(idRegion);
+            ddlCiudad.DataTextField = "NombreCiudad";
+            ddlCiudad.DataValueField = "IdCiudad";
+            ddlCiudad.DataBind();
+            ddlCiudad.Items.Insert(0, new ListItem("Seleccione Ciudad", string.Empty));
+        }
+
+        protected void cargarComuna(decimal idCiudad)
+        {
+            ddlComuna.DataSource = YouCom.bll.ComunaBLL.listaComunaByCiudad(idCiudad);
+            ddlComuna.DataTextField = "NombreComuna";
+            ddlComuna.DataValueField = "IdComuna";
+            ddlComuna.DataBind();
+            ddlComuna.Items.Insert(0, new ListItem("Seleccione Comuna", string.Empty));
+        }
+
+        protected void cargarCondominio()
+        {
+            if (myUsuario.IndexCondominio.ToString() == "0")
+            {
+                Session["Condominios"] = YouCom.Seguridad.BLL.CondominioBLL.getListadoCondominio();
+                rptCondominio.DataSource = YouCom.Seguridad.BLL.CondominioBLL.listaCategoriaActivo();
+                rptCondominio.DataBind();
+            }
+            else
+            {
+                Session["Condominios"] = YouCom.Seguridad.BLL.CondominioBLL.getListadoCondominio().Where(x => x.TheCondominioDTO.IdCondominio == myUsuario.TheCondominioSeleccionDTO.IdCondominio).ToList();
+                rptCondominio.DataSource = YouCom.Seguridad.BLL.CondominioBLL.listaCategoriaActivo().Where(x => x.TheCondominioDTO.IdCondominio == myUsuario.TheCondominioSeleccionDTO.IdCondominio).ToList();
+                rptCondominio.DataBind();
+            }
+
+        }
+        void SelView(Int32 nIndex)
+        {
+            Int32 oIndex = this.mvcEmpresa.ActiveViewIndex;
+
+            this.mvcEmpresa.ActiveViewIndex = nIndex;
+        }
+
+        protected void BtnCrear_Click(object sender, EventArgs e)
+        {
+            List<CondominioDTO> condominios = new List<CondominioDTO>();
+            condominios = (Session["Condominios"] as List<CondominioDTO>);
+
+            condominios = condominios.Where(x => x.RutCondominio == YouCom.Service.Generales.Formato.LimpiarRut(txtRut.Text)).ToList();
+
+            if (condominios.Any())
+            {
+                if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+                {
+                    string script = "alert('Empresa ya Existe.');";
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                    return;
+                }
+
+
+            }
+            else
+            {
+                CondominioDTO theCondominioDTO = new CondominioDTO();
+                theCondominioDTO.NombreCondominio = this.txtNombreCondominio.Text;
+                theCondominioDTO.RutCondominio = YouCom.Service.Generales.Formato.LimpiarRut(txtRut.Text);
+                theCondominioDTO.TelefonoCondominio = txtTelefono.Text;
+                theCondominioDTO.EmailCondominio = txtMail.Text;
+                theCondominioDTO.DireccionCondominio = txtDireccion.Text;
+                theCondominioDTO.UsuarioIngreso = myUsuario.Rut;
+
+                ArrayList myArrayList = new ArrayList();
+
+                string pDireccion = string.Empty;
+
+                pDireccion = this.txtDireccion.Text;
+
+                if (!string.IsNullOrEmpty(this.ddlComuna.SelectedValue.ToString()))
+                {
+                    pDireccion += "," + ddlComuna.SelectedItem.Text;
+                }
+
+                if (!string.IsNullOrEmpty(this.ddlCiudad.SelectedValue.ToString()))
+                {
+                    pDireccion += "," + ddlCiudad.SelectedItem.Text;
+                }
+
+                if (!string.IsNullOrEmpty(this.ddlRegion.SelectedValue.ToString()))
+                {
+                    pDireccion += "," + ddlRegion.SelectedItem.Text;
+                }
+
+                myArrayList = YouCom.Service.Generales.General.getRecuperaCoordenadas(pDireccion);
+
+                theCondominioDTO.LatitudCondominio = string.Copy(myArrayList[0].ToString());
+                theCondominioDTO.LongitudCondominio = string.Copy(myArrayList[1].ToString());
+
+                YouCom.DTO.RegionDTO myRegion = new YouCom.DTO.RegionDTO();
+                YouCom.DTO.CiudadDTO myCiudad = new YouCom.DTO.CiudadDTO();
+                YouCom.DTO.ComunaDTO myComuna = new YouCom.DTO.ComunaDTO();
+
+                myRegion.IdRegion = decimal.Parse(ddlRegion.SelectedValue);
+                myCiudad.IdCiudad = decimal.Parse(ddlCiudad.SelectedValue);
+                myComuna.IdComuna = decimal.Parse(ddlComuna.SelectedValue);
+
+                theCondominioDTO.TheComunaDTO = myComuna;
+                theCondominioDTO.TheComunaDTO.TheCiudadDTO = myCiudad;
+                theCondominioDTO.TheComunaDTO.TheCiudadDTO.TheRegionDTO = myRegion;
+
+
+                YouCom.Seguridad.BLL.CondominioBLL.Insert(theCondominioDTO);
+
+                if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+                {
+                    string script = "alert('Condominio Creado Exitosamente.');";
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                }
+
+                cargarCondominio();
+                limpiarCondominio();
+
+            }
+
+
+
+        }
+        protected void rptCondominio_OnItemCommand(object sender, RepeaterCommandEventArgs e)
+        {
+            HiddenField hdnIdCondominio = new HiddenField();
+            hdnIdCondominio = (HiddenField)e.Item.FindControl("HdnCondominioId");
+
+            if (e.CommandName == "Editar")
+            {
+                //YouCom.DTO.Seguridad.CondominioDTO theCondominioDTO = new YouCom.DTO.Seguridad.CondominioDTO();
+                //theCondominioDTO = YouCom.bll.co.detalleVotacionPropuesta(decimal.Parse(hdnVotacionPropuestaId.Value));
+
+                HiddenField hdnDireccion = new HiddenField();
+                hdnDireccion = (HiddenField)e.Item.FindControl("hdnDireccion");
+
+                HiddenField hdnMail = new HiddenField();
+                hdnMail = (HiddenField)e.Item.FindControl("hdnMail");
+
+                HiddenField hdnTelefono = new HiddenField();
+                hdnTelefono = (HiddenField)e.Item.FindControl("hdnTelefono");
+
+                HiddenField hdnNombre = new HiddenField();
+                hdnNombre = (HiddenField)e.Item.FindControl("hdnNombre");
+
+                HiddenField hdnRut = new HiddenField();
+                hdnRut = (HiddenField)e.Item.FindControl("hdnRut");
+
+                txtDireccion.Text = hdnDireccion.Value;
+                txtMail.Text = hdnMail.Value;
+                txtTelefono.Text = hdnTelefono.Value;
+                this.txtNombreCondominio.Text = hdnNombre.Value;
+                txtRut.Text = hdnRut.Value;
+                BtnCrear.Visible = false;
+                btnEditar.Visible = true;
+
+
+
+            }
+            if (e.CommandName == "Activar")
+            {
+                CondominioDTO theCondominioDTO = new CondominioDTO();
+                theCondominioDTO.IdCondominio = decimal.Parse(hdnIdCondominio.Value);
+                theCondominioDTO.UsuarioModificacion = myUsuario.Rut;
+                theCondominioDTO.Estado = "1";
+
+                YouCom.Seguridad.BLL.CondominioBLL.Delete(theCondominioDTO);
+
+                if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+                {
+                    string script = "alert('Condominio Activado Exitosamente.');";
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                }
+                cargarCondominio();
+            }
+            if (e.CommandName == "Desactivar")
+            {
+                CondominioDTO theCondominioDTO = new CondominioDTO();
+                theCondominioDTO.IdCondominio = decimal.Parse(hdnIdCondominio.Value);
+                theCondominioDTO.UsuarioModificacion = myUsuario.Rut;
+                theCondominioDTO.Estado = "2";
+
+                YouCom.Seguridad.BLL.CondominioBLL.Delete(theCondominioDTO);
+
+                if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+                {
+                    string script = "alert('Condominio Desactivado Exitosamente.');";
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                }
+                cargarCondominio();
+            }
+        }
+
+        protected void btnEditar_Click(object sender, EventArgs e)
+        {
+            btnEditar.Visible = false;
+            BtnCrear.Visible = true;
+
+            CondominioDTO theCondominioDTO = new CondominioDTO();
+
+            theCondominioDTO.RutCondominio = txtRut.Text;
+            theCondominioDTO.NombreCondominio = this.txtNombreCondominio.Text;
+            theCondominioDTO.TelefonoCondominio = txtTelefono.Text;
+            theCondominioDTO.DireccionCondominio = txtDireccion.Text;
+            theCondominioDTO.EmailCondominio = txtMail.Text;
+            theCondominioDTO.UsuarioIngreso = myUsuario.Rut;
+
+            YouCom.Seguridad.BLL.CondominioBLL.Update(theCondominioDTO);
+
+
+            cargarCondominio();
+
+            limpiarCondominio();
+
+            if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+            {
+                string script = "alert('Condominio editado Exitosamente.');";
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+            }
+
+        }
+
+        protected void limpiarCondominio()
+        {
+            txtDireccion.Text = string.Empty;
+            txtMail.Text = string.Empty;
+            txtRut.Text = string.Empty;
+            txtTelefono.Text = string.Empty;
+            this.txtNombreCondominio.Text = string.Empty;
+        }
+
+        protected void cargarFuncionGrupoSistema()
+        {
+            rptGrupo.DataSource = YouCom.Seguridad.BLL.FuncionGrupoBLL.ListaGruposSistema();
+            rptGrupo.DataBind();
+        }
+
+        protected void rptGrupo_OnItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            try
+            {
+                if (e.Item.ItemIndex > -1)
+                {
+                    if (!string.IsNullOrEmpty(((FuncionGrupoDTO)e.Item.DataItem).FuncionGrupoCod))
+                    {
+
+
+
+                        HiddenField hdnGrupoCod = new HiddenField();
+                        hdnGrupoCod = (HiddenField)e.Item.FindControl("hdnFuncionGrupoCod");
+
+                        Repeater rptFunciones = new Repeater();
+                        rptFunciones = (Repeater)e.Item.FindControl("rptFuncionesGrupo");
+
+                        List<FuncionDTO> funciones = new List<FuncionDTO>();
+                        funciones = YouCom.Seguridad.BLL.FuncionBLL.listaFuncion(int.Parse(hdnGrupoCod.Value));
+
+
+                        rptFunciones.DataSource = funciones;
+                        rptFunciones.DataBind();
+
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        protected void btnAsignar_Click(object sender, EventArgs e)
+        {
+            int cont = 0;
+            PermisoDTO thePermisoDTO = new PermisoDTO();
+
+            foreach (RepeaterItem item in rptGrupo.Items)
+            {
+                if (cont == 0)
+                {
+                    thePermisoDTO.Usuario = hidRutAdministrador.Value;
+                    YouCom.Seguridad.BLL.PermisoBLL.Delete(thePermisoDTO);
+                    cont++;
+
+                }
+
+                HiddenField hdnGrupoCod = new HiddenField();
+                hdnGrupoCod = (HiddenField)item.FindControl("hdnFuncionGrupoCod");
+
+                Repeater rptFunciones = new Repeater();
+                rptFunciones = (Repeater)item.FindControl("rptFuncionesGrupo");
+
+                foreach (RepeaterItem itemFunciones in rptFunciones.Items)
+                {
+
+
+                    CheckBox funcion = new CheckBox();
+                    funcion = (CheckBox)itemFunciones.FindControl("chkFuncion");
+
+                    if (funcion.Checked)
+                    {
+                        HiddenField hdnFuncion = new HiddenField();
+                        hdnFuncion = (HiddenField)itemFunciones.FindControl("hdnFuncionGrupoCod");
+
+                        ///Graba Permisos Generales de Acceso a las paginas
+
+                        thePermisoDTO.Funcion = hdnFuncion.Value;
+                        thePermisoDTO.Empresa = hidRutCondominioAdmin.Value;
+                        thePermisoDTO.Usuario = hidRutAdministrador.Value;
+
+                        //elimina permisos existentes
+                        //vuelve a crear permisos existentes
+                        YouCom.Seguridad.BLL.PermisoBLL.Insert(thePermisoDTO);
+                    }
+
+
+                }
+            }
+            if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+            {
+                string script = "alert('Permisos Asociados Exitosamente.');";
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+            }
+
+        }
+        protected void ddlRegion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(ddlRegion.SelectedValue))
+                {
+                    cargarCiudad(decimal.Parse(ddlRegion.SelectedValue));
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+        protected void ddlCiudad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(ddlCiudad.SelectedValue))
+                {
+                    cargarComuna(decimal.Parse(ddlCiudad.SelectedValue));
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+    }
+}
+

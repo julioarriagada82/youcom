@@ -1,0 +1,209 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using YouCom.DTO;
+using YouCom.DTO.Seguridad;
+
+public partial class App_Master_Controls_MLocalidad :SessionControl
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!Page.IsPostBack)
+        {
+            cargaPais();
+            CargaLocalidad();
+
+
+            if (Session["NuevaLocalidad"] != null)
+            {
+               txtLocalidad.Text= Session["NuevaLocalidad"].ToString();
+
+            }
+            else
+            {
+                txtLocalidad.Text = string.Empty;
+            }
+            if (Session["Region"] != null)
+            {
+               dllRegion.SelectedValue = Session["Region"].ToString();
+
+            }
+
+        }
+    }
+    protected void CargaLocalidad()
+    {
+        Session["Localidad"] = YouCom.bll.MantenedoresBLL.listaLocalidad();
+        rptLocalidad.DataSource = YouCom.bll.MantenedoresBLL.listaLocalidadActivo();
+        rptLocalidad.DataBind();
+    
+    }
+    protected void ddlPais_OnSelectedIndexChanged(object sender, EventArgs e)
+    {
+        if(!string.IsNullOrEmpty(ddlPais.SelectedValue))
+        {
+            List<RegionDTO> regiones = new List<RegionDTO>();
+            regiones = YouCom.bll.MantenedoresBLL.listaRegionActivo().Where(x => x.ThePaisDTO.IdPais == decimal.Parse(ddlPais.SelectedValue)).ToList();
+            dllRegion.DataSource = regiones;
+            dllRegion.DataTextField = "Descripcion";
+            dllRegion.DataValueField = "idRegion";
+            dllRegion.DataBind();
+            dllRegion.Items.Insert(0, new ListItem("Seleccione Region", string.Empty));
+        }
+    }
+    protected void cargaPais()
+    {
+        ddlPais.DataSource = YouCom.bll.MantenedoresBLL.listaPaisActivo();
+        ddlPais.DataTextField = "Descripcion";
+        ddlPais.DataValueField = "idPais";
+        ddlPais.DataBind();
+        ddlPais.Items.Insert(0, new ListItem("Seleccione Pais", string.Empty));
+    }
+    protected void cargaRegion()
+    {
+
+        dllRegion.DataSource = YouCom.bll.MantenedoresBLL.listaRegion();
+        dllRegion.DataTextField = "Descripcion";
+        dllRegion.DataValueField = "idRegion";
+        dllRegion.DataBind();
+        dllRegion.Items.Insert(0, new ListItem("Seleccione Region", ""));
+
+    }
+    protected void btnGrabar_Click(object sender, EventArgs e)
+    {
+        List<LocalidadDTO> Localidad = new List<LocalidadDTO>();
+        Localidad = (Session["localidad"] as List<LocalidadDTO>);
+
+        LocalidadDTO theLocalidadDTO = new LocalidadDTO();
+        theLocalidadDTO.IdRegion = dllRegion.SelectedValue;
+        theLocalidadDTO.Descripcion = txtLocalidad.Text.ToUpper();
+        theLocalidadDTO.UsuarioIngreso = myUsuario.Rut;
+
+       
+        Localidad = Localidad.Where(x => x.Descripcion ==theLocalidadDTO.Descripcion).ToList();
+        if (Localidad.Any())
+        {
+            foreach (var item in Localidad)
+            {
+                if (item.Estado == "2")
+                {
+                    string script = "alert('Localidad Existe pero Fue Eliminado Para Activarlo dirigase a Papelera.');";
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                    return;
+                }
+                else
+                {
+                    string script = "alert('Localidad ya Existe .');";
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                    return;
+                }
+            }
+
+         
+        }
+
+
+        bool respuesta = YouCom.bll.MantenedoresBLL.InsertLocalidad(theLocalidadDTO);
+        if (respuesta)
+        {
+            CargaLocalidad();
+            string script = "alert('Localidad Ingresada correctamente.');";
+            Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+        }
+        else
+        {
+
+        }
+    }
+    protected void btnEditar_Click(object sender, EventArgs e)
+    {
+        btnEditar.Visible = false;
+        btnGrabar.Visible = true;
+
+        LocalidadDTO theLocalidadDTO=new LocalidadDTO();
+        theLocalidadDTO.IdLocalidad = HidIdLocalidad.Value;
+        theLocalidadDTO.IdRegion = HidIdRegion.Value;
+        theLocalidadDTO.Descripcion =txtLocalidad.Text.ToUpper();
+        theLocalidadDTO.UsuarioModificacion = myUsuario.Rut;
+        bool respuesta = YouCom.bll.MantenedoresBLL.UpdateLocalidad(theLocalidadDTO);
+        if (respuesta)
+        {
+           
+           txtLocalidad.Text  = string.Empty;
+           btnEditar.Visible = false;
+
+            if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+            {
+                CargaLocalidad();
+                string script = "alert('Localidad Editada correctamente.');";
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+            }
+        }
+        else
+        {
+        }
+
+    }
+
+    protected void rptLocalidad_OnItemCommand(object sender, RepeaterCommandEventArgs e)
+    {
+        if (e.CommandName == "Editar")
+        {
+            HiddenField hdnRegion = new HiddenField();
+            hdnRegion = (HiddenField)e.Item.FindControl("hdnRegion");
+
+            HiddenField hdnlocalidad = new HiddenField();
+            hdnlocalidad = (HiddenField)e.Item.FindControl("hdnlocalidad");
+
+            HiddenField hdnDescripcion = new HiddenField();
+            hdnDescripcion = (HiddenField)e.Item.FindControl("hdnDescripcion");
+
+            HidIdLocalidad.Value =hdnlocalidad.Value;
+            HidIdRegion.Value = hdnRegion.Value;
+            txtLocalidad.Text = hdnDescripcion.Value;
+            dllRegion.SelectedValue = hdnRegion.Value;
+            btnGrabar.Visible = false;
+            btnEditar.Visible = true;
+
+        }
+        if (e.CommandName == "Eliminar")
+        {
+            HiddenField hdnlocalidad = new HiddenField();
+            hdnlocalidad = (HiddenField)e.Item.FindControl("hdnlocalidad");
+
+
+            LocalidadDTO theLocalidadDTO=new LocalidadDTO();
+            theLocalidadDTO.IdLocalidad = hdnlocalidad.Value;
+            theLocalidadDTO.UsuarioModificacion = myUsuario.Rut;
+
+            bool validaIntegridad = YouCom.bll.MantenedoresBLL.ValidaEliminacionLocalidad(theLocalidadDTO);
+            if (validaIntegridad)
+            {
+                string script = "alert('No es posible eliminar Localidad asociada a propuesta y/o proyectos.');";
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                return;
+            }
+            else
+            {
+                bool respuesta = YouCom.bll.MantenedoresBLL.DeleteLocalidad(theLocalidadDTO);
+                if (respuesta)
+                {
+                    CargaLocalidad();
+                    if (!Page.ClientScript.IsClientScriptBlockRegistered("SET"))
+                    {
+                        string script = "alert('Localidad Eliminada correctamente.');";
+                        Page.ClientScript.RegisterStartupScript(this.GetType(), "SET", script, true);
+                    }
+                }
+                else
+                {
+                }
+            }
+
+        }
+
+    }
+}

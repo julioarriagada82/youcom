@@ -1,0 +1,74 @@
+D:\Paso\Respaldo\JARRIAGADA\SW\SW_DESA\IB\Proyect\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\SW_DESA\IB\Proyect\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SW_DESA\IB\Proyect\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\IB\BI.NET\Proyect\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\IB\BI.NET\Proyect\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\IB\BI.NET\Proyect\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\IB\IB\Proyect\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\IB\IB\Proyect\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\IB\IB\Proyect\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\documentacion\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\JUANLUIS\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\JUANLUIS\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\JUANLUIS\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\JUANLUIS\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\JUANLUIS\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jarriagada\Escritorio\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jarriagada\Escritorio\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jarriagada\Escritorio\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jarriagada\Escritorio\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jarriagada\Escritorio\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\Migracion Arquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\documentacion\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\MigracionArquitectura IB\IB\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.ARQ\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.ARQ\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.ARQ\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Fuentes\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Fuentes\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Fuentes\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura IB 2\trunk\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\01 Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\01 Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+C:\Documents and Settings\jperez\Escritorio\documentacion\01 Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jperez\Escritorio\documentacion\01 Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+C:\Documents and Settings\jperez\Escritorio\documentacion\01 Arquitectura Sin Tercera Clave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\ResolveAssemblyReference.cache
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.NoTerceraClave\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.VS2010\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.VS2010\IB.New.Arquitectura\Bin\KTF\KTFCore\BI.DAL.KtEncPwd.pdb
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.VS2010\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.dll
+D:\Paso\Respaldo\JARRIAGADA\SW\SVN_Dev\BI.NET.Arquitectura.VS2010\IB.New.Arquitectura\Fuentes\Binter\WebSite\BI.KtEncPwd\obj\Debug\BI.DAL.KtEncPwd.pdb

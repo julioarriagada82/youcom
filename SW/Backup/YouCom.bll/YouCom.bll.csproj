@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0EA65068-798C-471E-8E8F-C475513351FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YouCom.bll</RootNamespace>
+    <AssemblyName>YouCom.bll</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoHogarBLL.cs" />
+    <Compile Include="ArchivoBLL.cs" />
+    <Compile Include="AreasComunesBLL.cs" />
+    <Compile Include="AvisosBLL.cs" />
+    <Compile Include="BannerBLL.cs" />
+    <Compile Include="CargoBLL.cs" />
+    <Compile Include="CasaBLL.cs" />
+    <Compile Include="CategoriaBLL.cs" />
+    <Compile Include="ComentarioAvisoBLL.cs" />
+    <Compile Include="ComercioBLL.cs" />
+    <Compile Include="ComunidadBLL.cs" />
+    <Compile Include="ContactoFamiliaBLL.cs" />
+    <Compile Include="ContenidoBLL.cs" />
+    <Compile Include="DirectivaBLL.cs" />
+    <Compile Include="EmergenciaBLL.cs" />
+    <Compile Include="EventoBLL.cs" />
+    <Compile Include="FamiliaBLL.cs" />
+    <Compile Include="ForoComunidadBLL.cs" />
+    <Compile Include="FrecuenciaBLL.cs" />
+    <Compile Include="GastosComunesBLL.cs" />
+    <Compile Include="HorarioTurnoBLL.cs" />
+    <Compile Include="ListaNegraBLL.cs" />
+    <Compile Include="MantenedoresBLL.cs" />
+    <Compile Include="MensajePorteriaBLL.cs" />
+    <Compile Include="NoticiaBLL.cs" />
+    <Compile Include="OcupacionBLL.cs" />
+    <Compile Include="ParentescoBLL.cs" />
+    <Compile Include="PeriodoHorarioBLL.cs" />
+    <Compile Include="PorteriaBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RankingServicioBLL.cs" />
+    <Compile Include="Mensajeria\SalasChatBLL.cs" />
+    <Compile Include="Seguridad\Seguridad.cs" />
+    <Compile Include="ServiciosBLL.cs" />
+    <Compile Include="TipoAvisoBLL.cs" />
+    <Compile Include="TipoCategoriaBLL.cs" />
+    <Compile Include="TipoVisitaBLL.cs" />
+    <Compile Include="TurnoDiarioBLL.cs" />
+    <Compile Include="VacacionesBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YouCom.DAL\YouCom.DAL.csproj">
+      <Project>{F95922F3-D81C-4634-BC63-BB5E667866F7}</Project>
+      <Name>YouCom.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YouCom.DAL\YouCom.Mensajeria.DAL\YouCom.Mensajeria.DAL.csproj">
+      <Project>{D80BD5A6-7C65-422B-933B-0D22E65970EC}</Project>
+      <Name>YouCom.Mensajeria.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YouCom.DTO\YouCom.DTO.csproj">
+      <Project>{C39A8372-0EF7-4467-B202-26DB617D745C}</Project>
+      <Name>YouCom.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YouCom.facade\YouCom.facade.csproj">
+      <Project>{C949BCAE-0C7E-43EF-A214-DA97FBDBF062}</Project>
+      <Name>YouCom.facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YouCom.mantenedores.DAL\YouCom.mantenedores.DAL.csproj">
+      <Project>{D017B349-6AC2-43FA-A940-C36A9D56736F}</Project>
+      <Name>YouCom.mantenedores.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
